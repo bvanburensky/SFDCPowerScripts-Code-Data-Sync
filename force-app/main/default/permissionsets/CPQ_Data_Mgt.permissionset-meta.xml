@@ -2,6 +2,13 @@
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Used to manage cpq data between environments.
 Peremissions on external ids</description>
+
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.External_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+
     <fieldPermissions>
         <editable>false</editable>
         <field>SBQQ__BlockPrice__c.External_Id__c</field>

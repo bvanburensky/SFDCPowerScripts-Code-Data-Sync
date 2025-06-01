@@ -21,7 +21,7 @@ $sourceOrgAlias = 'SunsetQA'
 $sourceOrgAlias = 'XRXFull' 
 $sourceOrgAlias = 'XRXFullIn' 
 $sourceOrgAlias = 'XRXProdBk'   
-$sourceOrgAlias = 'XRXProdIn'   
+$sourceOrgAlias = 'bvbtest26'   
 #$sourceOrgAlias = 'Sunsetnessdevnew' 
 # target connection to your dev or prodction 
  
@@ -38,7 +38,7 @@ $targetOrgAlias = 'XRXProd'
 $retrieve = $true        
 #######  true|False deploy or verify the artifacts to the target org.  
 #        if retrieve and deploy are false then nothing is going to happen  
-$deploy = $true          
+$deploy = $false      
 # to delete records spcified in a csvfile
  
 # after deploying, reterieve the objects and take a look 
@@ -47,12 +47,12 @@ $reQuerytargetOrgOnDeploy = $true
  
 $onlyProcessFile = ""
 $onlyProcessSObject = ""
-$onlyProcessDirectory = "XRX4"
+$onlyProcessDirectory = "CPQConfig"
 
 ## Inputoutput subdir contain your deployment
-$csvOutOverride = 'XRX4' 
+$csvOutOverride = 'CPQConfig' 
 $exportTreePath = 'revBilling' 
-[bool] $exportTree = $true
+[bool] $exportTree = $false
 
 $replace = $false 
 
@@ -62,14 +62,15 @@ $excludeProcessFile += "asda.ps1"
 $excludeProcessSObject = ""
 $excludeProcesssDirectory = ""
 
-# for debug. display the reterive query
+# for debug. display the query
 
-$retrieveFieldOverride = "'id,unique_id__c'"
+$retrieveFieldOverride = "'id,external_id__c'"
 $retrieveFieldOverride = "'id,name'"
-$retrieveFieldOverride = "'id,unique_id__c'"
+$retrieveFieldOverride = "'id,external_id__c'"
+$retrieveFieldOverride = "'id,external_id__c'"
 $retrieveFieldOverride = ""
-# $IDFieldForUpsert = "unique_id__c"
-$IDFieldForUpsert = "'id'"
+# $IDFieldForUpsert = "external_id__c"
+$IDFieldForUpsert = "'external_id__c'"
 
 
 
@@ -98,7 +99,7 @@ if ($replace) {
 #$showExcluded = $false
 $showQuery = $true
 #This only applies to reterive 
-$whereOverride = "" ## " 'where Unique_ID__c in (''EX-020120033'')' "
+$whereOverride = "" ## " 'where external_id__c in (''EX-020120033'')' "
 
 #Add to the existing Query 'and field = ''asd '' ' if false then replaces any Where clause
 $whereOverrideAdd = $true

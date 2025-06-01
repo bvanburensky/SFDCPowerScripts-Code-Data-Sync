@@ -5,24 +5,26 @@ $packageHash = @{}
  
 $packageHash.add("Pricebook2", 
 @{fields   = "
-Unique_ID__c,
+external_id__c,
 IsActive,
 Name ,
 Description,
 IsStandard
   ";
     importOrder ="1"
+      ignore = $true
+    
 } ) 
 
 $packageHash.add("SBQQ__BlockPrice__c",
     @{fields   = 
-    " Unique_ID__c,
+    " external_id__c,
     SBQQ__EffectiveDate__c,
     SBQQ__LowerBound__c,
     SBQQ__OrderProduct__c,
     SBQQ__OriginalBlockPrice__c,
     SBQQ__Price__c,
-    SBQQ__PriceBook2__r.Unique_ID__c,
+    SBQQ__PriceBook2__r.external_id__c,
     SBQQ__Product__c,
     SBQQ__QuoteLine__c,
     SBQQ__UpperBound__c ";
@@ -34,10 +36,10 @@ $packageHash.add("SBQQ__BlockPrice__c",
 
     $packageHash.add("SBQQ__DiscountSchedule__c", 
     @{fields   = "
-    Unique_ID__c,
+    external_id__c,
     Name,
-    SBQQ__Product__r.Unique_ID__c,
-    SBQQ__Pricebook__r.Unique_ID__c,
+    SBQQ__Product__r.external_id__c,
+    SBQQ__Pricebook__r.external_id__c,
     SBQQ__Account__c,
     SBQQ__AggregationScope__c,
     SBQQ__ConstraintField__c,
@@ -64,8 +66,8 @@ $packageHash.add("SBQQ__BlockPrice__c",
 
     $packageHash.add("SBQQ__DiscountTier__c", 
     @{fields   = "
-    Unique_ID__c,
-    SBQQ__Schedule__r.Unique_ID__c,
+    external_id__c,
+    SBQQ__Schedule__r.external_id__c,
     Name ,
     SBQQ__Discount__c,
     SBQQ__DiscountAmount__c,
