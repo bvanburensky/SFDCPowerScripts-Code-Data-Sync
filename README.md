@@ -17,18 +17,38 @@ that can then be used to populate your externalid fields.
   see attached. 
 
 Once the external id as established in you master, create an sandbox or scratch org
-in the 
+in the dataGetDeploy.ps1 set you sfdc alias to the source and target environments
 $sourceOrgAlias = 'master'    
 and 
 $targetOrgAlias = 'bvbtest26'    // your sandbox. 
+then run the script dataGetDeploy.ps1 
+
+more details: 
+ pssData directory contains the ps1 scripts and data
+
+ pssData
+   data
+     org
+      project-sprint
+        alias 
+          sObject1,csv
+          sobject2.csv
+          ...
+  sObjects
+    project-sprint ()
+      dataGetDeploy.ps1
+        sourceOrgAlias(alias)
+        targetOrgAlias(alias) 
+      sObjectFile1.ps1
+      sObjectFile2.ps1
+      
+      
 
 $onlyProcessDirectory = "CPQConfig"  indicates the subdirectiry hta contains the SOQL files.
    
 
 
 
-
-1. download and connect to you initial orgs.
-2. 
+ 
 
 
