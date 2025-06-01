@@ -10,6 +10,25 @@ Having worked on so many CPQ projects, this is a real timesaver and bug killer.
 ### Requires external ids on all objects and i have added some tips on how to set it up.
 ### once in place you can stand up test envionments quickly and deploy back to prod intelligently 
 
+Scripting sync weres by matching on external id fields setup on each SBQQ__xxx object.
+to start apply the external id manifests to you cpq objects (assuming you have none already),
+included is a auto number field that can be deployed to you master org to generaterate you ids 
+that can then be used to populate your externalid fields.
+  see attached. 
 
+Once the external id as established in you master, create an sandbox or scratch org
+in the 
+$sourceOrgAlias = 'master'    
+and 
+$targetOrgAlias = 'bvbtest26'    // your sandbox. 
+
+$onlyProcessDirectory = "CPQConfig"  indicates the subdirectiry hta contains the SOQL files.
+   
+
+
+
+
+1. download and connect to you initial orgs.
+2. 
 
 
