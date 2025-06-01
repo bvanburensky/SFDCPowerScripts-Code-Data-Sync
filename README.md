@@ -27,9 +27,7 @@ more details:
  pssData directory contains the ps1 scripts and data
 
  pssData
- 
   -data
-  
   -org
      ## project-sprint
       -sourceAlias 
@@ -40,14 +38,13 @@ more details:
       -sObject1.csv
       -sobject2.csv
           ...
-          
-   ## sObjects
-    project-sprint ()
-      dataGetDeploy.ps1
-        sourceOrgAlias(alias)
-        targetOrgAlias(alias) 
-      sObjectFile1.ps1
-      sObjectFile2.ps1
+  ## sObjects
+   -project-sprint ()
+    -dataGetDeploy.ps1
+      -sourceOrgAlias(alias)
+      -targetOrgAlias(alias) 
+     -sObjectFile1.ps1
+     -sObjectFile2.ps1
   
       
       
