@@ -1,3 +1,0 @@
-Id,StartDate,EndDate,Amendment_Type__c,SBQQ__AmendmentOwner__c,Status,SBQQ__AmendmentStartDate__c,Auto_Close_Cancellation__c,Renewal_Mode__c,Account.Customer_Id__c,Count_of_Blue_Book_Subs__c
-800Do000000x91pIAA,2021-10-01,2023-09-30,Cancellation,005Do000000v14GIAQ,Terminated,2022-11-01,true,Expire,103176,12
-800Do000000x92BIAQ,2021-08-01,2023-07-31,Cancellation,005Do000000v14GIAQ,Terminated,2022-11-01,true,Expire,107301,8

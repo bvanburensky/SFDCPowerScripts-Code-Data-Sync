@@ -1,8 +1,0 @@
-External_Id__c,SBQQ__Product__r.External_ID__c,Name,SBQQ__Active__c,SBQQ__ConditionsMet__c,SBQQ__ConfiguratorEvaluationEvent__c,SBQQ__EvaluationEvent__c,SBQQ__EvaluationOrder__c,SBQQ__LookupObject__c,SBQQ__TargetObject__c
-EX-20230511.01,,IMS Invoice Descriptions - Add,true,All,,After Calculate,1200,,Calculator
-EX-20230517.01,,PR ForceUpdate,false,All,Edit,On Initialization;Before Calculate;On Calculate;After Calculate,1000,,Calculator
-EX-20230518.01,,Group: Apply Discount Rate - Apply,true,All,Edit,On Calculate,850,,Calculator
-EX-20230526.01,,Quote Apply Discount - Set QuoteVal,true,All,Edit,Before Calculate,550,,Calculator
-EX-20230526.03,,Quote Apply Discount - Clear Vals,true,All,Edit,Before Calculate,600,,Calculator
-EX-20230526.60,,Quote Apply Discount - Set Discount,true,All,Edit,On Calculate;After Calculate,800,,Calculator
-EX-20230526.61,,Quote Apply Discount - Bump,true,All,Edit,On Initialization,800,,Calculator

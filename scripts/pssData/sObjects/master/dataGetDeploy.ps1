@@ -14,25 +14,13 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 $sourceOrgAlias = 'sfcpqdev' 
 $sourceOrgAlias = 'fullqa' 
 $sourceOrgAlias = 'production'   
-$sourceOrgAlias = 'DIProd1' 
-$sourceOrgAlias = 'DIUAT0TF' 
-$sourceOrgAlias = 'DIQA' 
-$sourceOrgAlias = 'DCNFull' 
-$sourceOrgAlias = 'DCNFullIn' 
-$sourceOrgAlias = 'DCNProdIn' 
+$sourceOrgAlias = 'roxScratch04'   
+$sourceOrgAlias = 'MIProd' 
 
-#$sourceOrgAlias = 'DInessdevnew' 
 # target connection to your dev or prodction 
- 
- 
-$targetOrgAlias = 'DIProd' 
-$targetOrgAlias = 'DIUAT' 
-$targetOrgAlias = 'DIDev'  
-$targetOrgAlias = 'DCNFull'  
-$targetOrgAlias = 'DCNProd' 
+$targetOrgAlias = 'roxScratch04' 
+$targetOrgAlias = 'roxScratch05' 
 
- 
- 
 #######  true|False  # perform the retrieve from the source org or use the artifacts that exist   
 
 $retrieve = $true

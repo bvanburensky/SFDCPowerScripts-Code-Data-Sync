@@ -1,2 +1,0 @@
-External_Id__c,SBQQ__Product__r.External_ID__c,Name,SBQQ__Active__c,SBQQ__ConditionsMet__c,SBQQ__ConfiguratorEvaluationEvent__c,SBQQ__EvaluationEvent__c,SBQQ__EvaluationOrder__c,SBQQ__LookupObject__c,SBQQ__TargetObject__c
-EX-20230320.2,,Group: Apply Discount Rate,true,All,Edit,Before Calculate;On Calculate,0,,Calculator
