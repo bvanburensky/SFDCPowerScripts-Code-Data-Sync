@@ -15,22 +15,22 @@ $sourceOrgAlias = 'dev'
 $sourceOrgAlias = 'sfcpqdev' 
 $sourceOrgAlias = 'fullqa' 
 $sourceOrgAlias = 'production'  
-$sourceOrgAlias = 'DIProd1' 
-$sourceOrgAlias = 'DIUAT0TF' 
-$sourceOrgAlias = 'DIQA' 
-$sourceOrgAlias = 'DCNFull' 
-$sourceOrgAlias = 'DCNFullIn' 
-$sourceOrgAlias = 'DCNProdBk'   
-$sourceOrgAlias = 'DCNProdIn'   
-#$sourceOrgAlias = 'DInessdevnew' 
+$sourceOrgAlias = 'SunsetProd1' 
+$sourceOrgAlias = 'SunsetUAT0TF' 
+$sourceOrgAlias = 'SunsetQA' 
+$sourceOrgAlias = 'XRXFull' 
+$sourceOrgAlias = 'XRXFullIn' 
+$sourceOrgAlias = 'XRXProdBk'   
+$sourceOrgAlias = 'XRXProdIn'   
+#$sourceOrgAlias = 'Sunsetnessdevnew' 
 # target connection to your dev or prodction 
  
  
-$targetOrgAlias = 'DIProd' 
-$targetOrgAlias = 'DIUAT'  
-$targetOrgAlias = 'DIDev'   
-$targetOrgAlias = 'DCNFull'  
-$targetOrgAlias = 'DCNProd' 
+$targetOrgAlias = 'SunsetProd' 
+$targetOrgAlias = 'SunsetUAT'  
+$targetOrgAlias = 'SunsetDev'   
+$targetOrgAlias = 'XRXFull'  
+$targetOrgAlias = 'XRXProd' 
 
  
 #######  true|False  # perform the retrieve from the source org or use the artifacts that exist   
@@ -47,10 +47,10 @@ $reQuerytargetOrgOnDeploy = $true
  
 $onlyProcessFile = ""
 $onlyProcessSObject = ""
-$onlyProcessDirectory = "DCN4"
+$onlyProcessDirectory = "XRX4"
 
 ## Inputoutput subdir contain your deployment
-$csvOutOverride = 'DCN4' 
+$csvOutOverride = 'XRX4' 
 $exportTreePath = 'revBilling' 
 [bool] $exportTree = $true
 

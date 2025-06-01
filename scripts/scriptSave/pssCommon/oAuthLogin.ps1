@@ -27,23 +27,23 @@ if ($Reauth -eq $false) {
 
    # adjust as needed
 
-    sf org login web -r "https:/test.salesforce.com" --alias DCNFull --set-default
-    sf org login web -r "https:/test.salesforce.com" --alias DCNFullIn --set-default
+    sf org login web -r "https:/test.salesforce.com" --alias XRXFull --set-default
+    sf org login web -r "https:/test.salesforce.com" --alias XRXFullIn --set-default
 
 
-    sf org login web -r "https:/test.salesforce.com" --alias DCNFullBk  
-    sf org login web  -r "https:/login.salesforce.com" --alias DCNProd 
+    sf org login web -r "https:/test.salesforce.com" --alias XRXFullBk  
+    sf org login web  -r "https:/login.salesforce.com" --alias XRXProd 
  
 
   
-    sf org login web  -r "https:/login.salesforce.com" --alias DCNProdIn 
-    sf org login web  -r "https:/login.salesforce.com" --alias DCNProdBk
+    sf org login web  -r "https:/login.salesforce.com" --alias XRXProdIn 
+    sf org login web  -r "https:/login.salesforce.com" --alias XRXProdBk
  
     sf org login web  -r "https:/test.salesforce.com" --alias BVBDeploy  
     
  
 ###  Verify connections 
-sf org display -o DCNFull
+sf org display -o XRXFull
 }
  
 <#

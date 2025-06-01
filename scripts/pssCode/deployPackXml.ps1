@@ -19,12 +19,12 @@ $sourceOrgAlias = 'bvbtest23'
        
 $targetOrgAlias = 'BVBDeploy'
 $targetOrgAlias = 'bvbtest26'  
-#$targetOrgAlias = 'DCNFull'    
+#$targetOrgAlias = 'XRXFull'    
  
 
 #$PackageFileName = "/sprint5/SRM-83.xml"rs
 $PackageFileName = "package552.xml"
-#$PackageFileName = "DCNSBQConfig.xml" 
+#$PackageFileName = "XRXSBQConfig.xml" 
 #$PackageFileName = "Sprint016.xml"
 #$PackageFileName = "projReq.xml"
 

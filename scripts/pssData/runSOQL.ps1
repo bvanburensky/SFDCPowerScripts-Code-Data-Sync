@@ -3,7 +3,7 @@
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 #>
 
-$targetOrgAlias = "DIProd"
+$targetOrgAlias = "SunsetProd"
 $name = "Product"
 
 

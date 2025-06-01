@@ -11,20 +11,20 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ## --------------------------------------------------------------------------s
 # retieve to pull from sandbox and deploy to your pr another sandbox or productio
  
-$sourceOrgAlias = 'DCNFull' 
+$sourceOrgAlias = 'XRXFull' 
 #$sourceOrgAlias = 'BVBDeploy' 
 #$sourceOrgAlias = 'DevSprint4'
  
 # target connection to your dev or prodction target see oAuthLogin.ps1
        
 $targetOrgAlias = 'BVBDeploy'
-$targetOrgAlias = 'DCNProd'  
-#$targetOrgAlias = 'DCNFull'    
+$targetOrgAlias = 'XRXProd'  
+#$targetOrgAlias = 'XRXFull'    
  
 
 #$PackageFileName = "/sprint5/SRM-83.xml"rs
-$PackageFileName = "DCN20230403.xml"
-#$PackageFileName = "DCNSBQConfig.xml" 
+$PackageFileName = "XRX20230403.xml"
+#$PackageFileName = "XRXSBQConfig.xml" 
 $PackageFileName = "Sprint016.xml"
 #$PackageFileName = "projReq.xml"
 

@@ -14,7 +14,7 @@ Delete unused fields
 
 sfdx force:data:bulk:delete -u fullqa -s sbqq__recordjob__c -f './scripts/data/delete.csv'
 
-sfdx force:data:bulk:delete -u DInessdevnew -s sbqq__recordjob__c -f './scripts/pssData/data/org/tassd/SBQQ__LineColumn__c.toDelete.csv'
+sfdx force:data:bulk:delete -u Sunsetnessdevnew -s sbqq__recordjob__c -f './scripts/pssData/data/org/tassd/SBQQ__LineColumn__c.toDelete.csv'
 
 sfdx force:data:record:get -s SBQQ__LineColumn__c -i a0T2h000002Ct75EAC
  

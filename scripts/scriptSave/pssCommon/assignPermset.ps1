@@ -11,11 +11,11 @@
 
   $sqol = ''
   $path =  "./scripts/pssCommon/users/userfileProd.csv"
-  # sfdx org assign permset -o DCNFull -n Salesforce_CPQ_User_Custom -b  
+  # sfdx org assign permset -o XRXFull -n Salesforce_CPQ_User_Custom -b  
 
-   # sfdx force:data:soql:query -q "SELECT Id,PermissionSetLicenseId,AssigneeId from PermissionSetLicenseAssign" -o DCNFull
+   # sfdx force:data:soql:query -q "SELECT Id,PermissionSetLicenseId,AssigneeId from PermissionSetLicenseAssign" -o XRXFull
 
-    #sfdx force:data:soql:query -q "SELECT Id,name from permissionset order by name" -o DCNFull
+    #sfdx force:data:soql:query -q "SELECT Id,name from permissionset order by name" -o XRXFull
 
 
     $sqol = "SELECT Id,PermissionSetId,AssigneeId,Assignee.username  from PermissionSetAssignment  "
@@ -23,9 +23,9 @@
    
     $sqol = "SELECT  PermissionSetId,Assignee.username  from PermissionSetAssignment  " 
     $sqol += " where PermissionSetId= '0PS3i000001z24kGAA'and Assignee.isactive=true order by Assignee.username"
-    sfdx data query -q $sqol -o DCNProd -r csv  >> $path
+    sfdx data query -q $sqol -o XRXProd -r csv  >> $path
 
-   # sfdx force:data:soql:query -q "SELECT Id,PermissionSetLicenseId,AssigneeId from PermissionSetLicenseAssign" -o DCNFull
+   # sfdx force:data:soql:query -q "SELECT Id,PermissionSetLicenseId,AssigneeId from PermissionSetLicenseAssign" -o XRXFull
 
  
 <#

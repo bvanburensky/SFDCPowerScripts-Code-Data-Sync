@@ -3,7 +3,7 @@
 test
 
 
-$sourceOrgAlias = 'DIProd'
+$sourceOrgAlias = 'XRXProd'
 $command = ".\scripts\pssCommon\fxVerifyLogin.ps1 " + $sourceOrgAlias + ' Source ' + $true
 if ( (Invoke-Expression $command) -eq $false) {
   return 'Abort Script on bad login '
