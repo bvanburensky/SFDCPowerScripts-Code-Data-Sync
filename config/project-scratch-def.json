@@ -1,0 +1,31 @@
+{
+  "orgName": "roxTest03",
+  "edition": "Developer",
+
+  "hasSampleData": true,
+   "features": [
+      "EnableSetPasswordInApi",
+      "CoreCpq",
+      "EnableSetPasswordInApi",
+      "Communities"
+      
+  ],
+  "settings": {
+ 
+      "lightningExperienceSettings": {
+          "enableS1DesktopEnabled": true
+      },
+      "mobileSettings": {
+          "enableS1EncryptedStoragePref2": false
+      },
+      "chatterSettings": {
+          "enableChatter": true
+      }
+
+  },
+
+  "adminEmail": "roxman@roxdogs.com",
+  "username": "roxTest03@roxdogs.com"
+
+}
+ 

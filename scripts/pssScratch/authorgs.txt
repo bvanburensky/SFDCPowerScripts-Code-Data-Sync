@@ -1,0 +1,8 @@
+
+## when you have many besst document
+ 
+ sf org login web --instance-url https://saas-java-8384-dev-ed.scratch.my.salesforce.com/ --alias roxTest01
+ sf org login web --instance-url https://saas-java-4495-dev-ed.scratch.my.salesforce.com/ --alias roxTest05
+ 
+
+ 

@@ -1,0 +1,5 @@
+{
+  "powershell.codeFormatting.useConstantStrings": false,
+  "powershell.codeFormatting.trimWhitespaceAroundPipe": true,
+  "powershell.codeFormatting.whitespaceBetweenParameters": true
+}

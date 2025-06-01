@@ -1,0 +1,42 @@
+{
+  "orgName": "roxTest02",
+  "edition": "enterprise",
+  "hasSampleData": true,
+  "features": [
+    "CoreCpq",
+    "CPQ",
+    "EnableSetPasswordInApi",
+    "Communities",
+    "CustomerCommunityPlus",
+    "ProductCatalogManagementPCAddOn",
+    "OrderSaveLogicEnabled",
+    "OrderSaveBehaviorBoth",
+    "EnableSetPasswordInApi",
+    "PlatformCache",
+    "CaseClassification",
+    "Einstein1AIPlatform",
+    "EinsteinBuilderFree" 
+    
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "revenueManagementSettings": {
+      "enableCoreCPQ": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "chatterSettings": {
+      "enableChatter": false
+    },
+    "settings": {
+      "einsteinGptSettings": {
+        "enableEinsteinGptPlatform": true
+      }
+    }
+  },
+  "adminEmail": "roxman@roxdogs.com",
+  "username": "roxTest02@roxdogs.com"
+}
