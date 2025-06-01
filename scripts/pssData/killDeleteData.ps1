@@ -7,7 +7,7 @@ single column with an id field
 pass name of file 
 becarefull !! backup your data bro!
  #>
- 
+ return
 $targetOrgAlias = "dev"
 $csvFile = "Product_Booking_Treatment__c.del" 
 $csvOutputPath = "scripts/pssData/data/org/" + $targetOrgAlias + "/"

@@ -8,5 +8,7 @@ external_id__c ,
        SBQQ__EvaluationEvent__c,
        SBQQ__EvaluationOrder__c,
        SBQQ__LookupObject__c,
-       SBQQ__TargetObject__c,
-       Description__c 
+       SBQQ__TargetObject__c
+       
+       
+       

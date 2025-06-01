@@ -15,10 +15,11 @@ $packageHash.add("SBQQ__TemplateContent__c",
         SBQQ__TextColor__c,
         SBQQ__Type__c";
         importOrder = "1"
+        ignore      = $true1 ;
     } )
 
 $packageHash.add("SBQQ__QuoteTemplate__c", 
- ##SBQQ__LogoDocumentId__c,
+    ##SBQQ__LogoDocumentId__c,
     @{fields        = 
         " external_id__c,
         SBQQ__HeaderContent__r.external_id__c ,
@@ -98,6 +99,7 @@ $packageHash.add("SBQQ__QuoteTemplate__c",
  
         ";
         importOrder = "2"
+        ignore      = $true1 ;
     } )  
     
 $packageHash.add("SBQQ__TemplateSection__c",
@@ -124,11 +126,12 @@ $packageHash.add("SBQQ__TemplateSection__c",
     SBQQ__SummaryDisplay__c,
     SBQQ__TopMargin__c";
         importOrder = "3"
+        ignore      = $true1 ;
     } )
- ## DELETE Auto created Existing lines after new template insert
+## DELETE Auto created Existing lines after new template insert
 $packageHash.add("SBQQ__LineColumn__c", 
     @{fields        = 
-    " external_id__c,
+        " external_id__c,
     Name,
     SBQQ__Template__r.external_id__c ,
     SBQQ__Section__r.external_id__c,
@@ -161,10 +164,11 @@ $packageHash.add("SBQQ__LineColumn__c",
     SBQQ__WidthDiscardedWhenHidden__c    ";
 
         importOrder = "4"
+        ignore      = $true1 ;
     } )
     
-  #, Section_Name__c 
-  #, Term_Desc__c 
+#, Section_Name__c 
+#, Term_Desc__c 
 $packageHash.add("SBQQ__QuoteTerm__c.NoParent", 
     @{fields        = 
         "external_id__c ,
@@ -180,12 +184,12 @@ $packageHash.add("SBQQ__QuoteTerm__c.NoParent",
         SBQQ__Body__c
     ";
         importOrder = "1";
-        #ignore      = $true
+        ignore      = $true
 
     } )
-    #after condition objects
+#after condition objects
 $packageHash.add("SBQQ__QuoteTerm__c.Parent", 
-    @{fields          = 
+    @{fields        = 
         "external_id__c 
     , SBQQ__Active__c 
     , SBQQ__Locked__c 
@@ -197,8 +201,9 @@ $packageHash.add("SBQQ__QuoteTerm__c.Parent",
     , SBQQ__TemplateContent__r.external_id__c 
     , SBQQ__Body__c 
     ";
-        where  = "" # where external_id__c = 'EX-021010004"  
-        importOrder   = "2"
+        where       = "" # where external_id__c = 'EX-021010004"  
+        importOrder = "2"
+        ignore      = $true ;
     } )
 
 
@@ -213,6 +218,7 @@ $packageHash.add("SBQQ__TermCondition__c",
         SBQQ__Value__c
      ";
         importOrder = "4"
+        ignore      = $true ;
     } )
 # now that the conditions are loaded i can load the advanced condishions with out error
 $packageHash.add("SBQQ__QuoteTerm__c.MetConditions", 
@@ -228,13 +234,13 @@ $packageHash.add("SBQQ__QuoteTerm__c.MetConditions",
 
 
 
-    $packageHash.add("SBQQ__LineColumn__c.toDelete", 
+$packageHash.add("SBQQ__LineColumn__c.toDelete", 
     @{fields        = 
-    "external_id__c,
+        "external_id__c,
      id,
      name
      ";
-         where       = " where external_id__c = '' "  ;
+        where       = " where external_id__c = '' "  ;
         importOrder = "3"
         ignore      = $true  
     } )

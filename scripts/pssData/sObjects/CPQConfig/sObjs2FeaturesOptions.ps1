@@ -84,7 +84,7 @@ $packageHash.add("SBQQ__ProductOption__c",
  
  
 
-    $packageHash.add("SBQQ__OptionConstraint__c",
+$packageHash.add("SBQQ__OptionConstraint__c",
     @{fields        = 
         " external_id__c,
         Name,

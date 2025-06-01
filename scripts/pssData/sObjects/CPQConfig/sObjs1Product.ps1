@@ -3,61 +3,31 @@ $packageHash = @{}
 
 # after options are mported 
 $packageHash.add("Products2.finn", 
-    @{fields        =
-        " Name 
-   , Unique_ID__c  
+  @{fields      =
+    " Name 
+   , external_id__c  
    , Financial_Category__c ";
-        ignore = $true ;
-        importOrder = "1";
-    } )
+    ignore      = $true ;
+    importOrder = "1";
+  } )
  
 #new products
 $packageHash.add("Product2.Updates", 
   @{
-    ignore = $false ;
+    ignore      = $true ;
     suffix      = "x1" ;
     importOrder = "2";
-    #where       = " where Unique_ID__c in ('EX-00000002','EXasd05') ";
-    fields        =
-        " 
+    #where       = " where external_id__c in ('EX-00000002','EXasd05') ";
+
+    ##    CurrencyIsoCode, -- Add if multi currency
+    fields      =
+    " 
         Name,
-        Unique_ID__c,
+        external_id__c,
         IsActive,
-        AVA_SFCPQ__TaxCode__c,
-        BRL_List_Price__c,
-        Bundle__c,
-        Calculate_Maintenance__c,
- 
-        CurrencyIsoCode,
         Description,
         DisplayUrl,
-        EP_Evaluator_Base_Software__c,
-        EUR_List_Price__c,
-        ExternalDataSourceId,
-      
-        Family,
-        Feature__c,
-        Financial_Category__c,
-        Financial_Summary_Category__c,
-        GBP_List_Price__c,
-        GSA_Maintenance_Calculation__c,
-        GSA_Only__c,
-        IMBase_Software_Product__c,
-        One_Time_or_Recurring__c,
-        PriceBookEntryId__c,
-        Product_Category__c,
-        Product_Code_Id__c,
-        Product_Id__c,
-        Product_Line__c,
-        Product_Line_Filter__c,
-        Product_Name_FR__c,
-        ProductCode,
-        QuantityUnitOfMeasure,
-        Region__c,
-        Required_Version__c,
-        Rules_Tips__c,
-        Is_Memo_Non_Financial__c,
-        Is_Software_Configuration__c,
+ 
         SBQQ__AssetAmendmentBehavior__c,
         SBQQ__AssetConversion__c,
         SBQQ__BatchQuantity__c,
@@ -127,29 +97,22 @@ $packageHash.add("Product2.Updates",
         SBQQ__UpgradeCredit__c,
         SBQQ__UpgradeRatio__c,
         SBQQ__UpgradeSource__c,
-        SBQQ__UpgradeTarget__c,
-        SBQQ_RenewalProduct_cPC__c,
-        SBQQ_SubscriptionTarget_cPC__c,
-        Signature_Requirements__c,
-        Source_Id__c,
-        Standard_Price__c,
-        Standard_Pricebook_Id__c,
-        StockKeepingUnit,
-        UOM__c,
-        USD_List_Price_SunsetLA__c,
-        USD_List_Price_SunsetNA__c
+        SBQQ__UpgradeTarget__c
+   
+ 
+
      ";
-   } )
+  } )
 
-    $packageHash.add("PriceBookEntry", 
-    @{
-      ignore = $true ;
-      suffix      = "x1" ;
-      importOrder = "2";
+$packageHash.add("PriceBookEntry", 
+  @{
+    ignore      = $true ;
+    suffix      = "x1" ;
+    importOrder = "2";
 
-   #   where       = " where Unique_ID__c in ('EX-00000002','EXasd05') ";
-      fields        =
-          "  
+    #   where       = " where external_id__c in ('EX-00000002','EXasd05') ";
+    fields      =
+    "  
     Id,
     IsActive,
     Name,
@@ -157,7 +120,7 @@ $packageHash.add("Product2.Updates",
     Product2Id,
     PriceBookEntryId__c
     ";
-   } )
+  } )
 
 return $packageHash
  

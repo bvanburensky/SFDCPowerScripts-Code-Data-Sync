@@ -18,9 +18,11 @@ $packageHash.add("SBQQ__PriceRule__c.NoConditionsMet",
     SBQQ__EvaluationEvent__c,
     SBQQ__EvaluationOrder__c,
     SBQQ__LookupObject__c,
-    SBQQ__TargetObject__c,
-    Description__c ";
+    SBQQ__TargetObject__c
+
+     ";
         importOrder = "1";
+        ignore      = $false ;
         
         # where       = " where SBQQ__Active__c =true ";
        
@@ -38,9 +40,12 @@ $packageHash.add("SBQQ__PriceRule__c.WithConditionsMet",
        SBQQ__EvaluationEvent__c,
        SBQQ__EvaluationOrder__c,
        SBQQ__LookupObject__c,
-       SBQQ__TargetObject__c,
-       Description__c ";
+       SBQQ__TargetObject__c
+       
+       
+       ";
         importOrder = "6";
+        ignore      = $false ;
         #  where       = " where SBQQ__Active__c =true ";
        
     } )
@@ -64,6 +69,7 @@ $packageHash.add("SBQQ__PriceCondition__c",
    "; 
     
         importOrder = "4";
+        ignore      = $false ;
         # where       = " where SBQQ__ParentRuleIsActive__c =true " 
     } )
 
@@ -85,6 +91,7 @@ $packageHash.add("SBQQ__PriceAction__c",
     ";
 
         importOrder = "4";
+        ignore      = $false ;
         #  where       = " where SBQQ__ParentRuleIsActive__c =true   "
     } )
 
@@ -95,7 +102,7 @@ $packageHash.add("SBQQ__ProductRule__c.NoConditionsMet",
         "  
     external_id__c,
     Name,
-    Description__c,
+
     SBQQ__Active__c,
     SBQQ__ConditionsMet__c,
     SBQQ__ErrorMessage__c,
@@ -109,6 +116,7 @@ $packageHash.add("SBQQ__ProductRule__c.NoConditionsMet",
     SBQQ__Scope__c,
     SBQQ__Type__c  ";
         importOrder = "1";
+        ignore      = $false ;
         #where       = " where SBQQ__Active__c =true   "
     } )  
 $packageHash.add("SBQQ__ProductRule__c.WithConditionsMet",
@@ -116,7 +124,7 @@ $packageHash.add("SBQQ__ProductRule__c.WithConditionsMet",
         " 
     external_id__c,
     Name,
-    Description__c,
+
     SBQQ__Active__c,
     SBQQ__AdvancedCondition__c,
     SBQQ__ConditionsMet__c,
@@ -131,7 +139,8 @@ $packageHash.add("SBQQ__ProductRule__c.WithConditionsMet",
     SBQQ__Scope__c,
     SBQQ__Type__c  ";
         importOrder = "5";
-     #   ignore = $true
+        ignore      = $false ;
+        #   ignore = $true
         #   where       = " where SBQQ__Active__c =true   "
     } )
 
@@ -152,6 +161,7 @@ $packageHash.add("SBQQ__ProductAction__c",
 
         ";
         importOrder = "4";
+        ignore      = $false ;
         # where       = " where SBQQ__ParentRuleIsActive__c =true "
     } )
 
@@ -172,6 +182,7 @@ $packageHash.add("SBQQ__ErrorCondition__c",
       SBQQ__TestedVariable__r.external_id__c 
     ";
         importOrder = "4";
+        ignore      = $false ;
         #   where       = " where SBQQ__ParentRuleIsActive__c =true "
     } )
  
@@ -187,6 +198,7 @@ $packageHash.add("SBQQ__ConfigurationRule__c",
     SBQQ__DescendingNestedLevel__c";
 
         importOrder = "4";
+        ignore      = $false ;
         # where       = " where SBQQ__Product__r.isactive = true and SBQQ__ProductRule__r.SBQQ__Active__c = true"
     } )   
 
@@ -208,7 +220,7 @@ $packageHash.add("SBQQ__LookupQuery__c",
 
 
    ";
-
+        ignore      = $false ;
         importOrder = "4";
         # where       = " where SBQQ__ParentRuleIsActive__c =true ";
        

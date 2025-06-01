@@ -10,10 +10,13 @@
  Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 
+sf alias set bvbtest25In=bvbtest25@menorah-intc.com   
+sf alias list
+
     sf org login web -r "https:/test.salesforce.com" --alias MIDev
     sf org login web  -r "https:/login.salesforce.com" --alias MIDev 
     sf org login web  -r "https:/login.salesforce.com" --alias PCProd 
-     sf org login web  -r "https://site-speed-1475-dev-ed.scratch.my.salesforce.com/" --alias bvbtest20 
+    sf org login web  -r "https://site-speed-1475-dev-ed.scratch.my.salesforce.com/" --alias bvbtest20 
 
 $Reauth = $true
 if ($Reauth -eq $false) {
@@ -39,7 +42,7 @@ if ($Reauth -eq $false) {
 sf org display -o XRXFull
 }
  
-bvbtest20@menorah-intc.com
+
 
 <#
  git config --global user.email roxIt@XRXhacktions.com

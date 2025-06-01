@@ -75,7 +75,7 @@ foreach ($sObj in $CPQFiles) {
     $cntFound += 1
     #  $sObj | Get-Member 
     $filepath = $sObj 
-
+    Write-Host $filepath 
     #write-host command  $filepath  -ForegroundColor DarkRed    
     #$filepath.BaseName;
     #$filepath.DirectoryName;

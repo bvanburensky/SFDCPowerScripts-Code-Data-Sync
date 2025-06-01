@@ -3,7 +3,7 @@ EX-000002,Consulting Services Addendum,EX-000002,EX-000019,FFFFFF,0,false,Output
 EX-000003,Amendment Recurring Totals without Discounts,EX-000002,EX-000022,,0,false,Output_Show_Amendment_Totals_w_o_Disc__c,310,,,,,Always,Auto,,,false,,Never,0
 EX-000004,Data Services Addendum,EX-000002,EX-000002,FFFFFF,0,false,Output_Show_Data_Services_Addendum__c,1300,,,,,Auto,Auto,,,false,,Never,0
 EX-000005,Recurring Quote Lines without Discounts,EX-000002,EX-000004,,0,false,Output_Show_NonDisc_Recurring_Lines__c,300,Output_Display_Table__c,contains,Recurring,,Auto,Auto,,,false,,Never,0
-EX-000006,Custom Contract Details,EX-000002,EX-000013,,0,false,Output_Show_Custom_Contract_Details__c,420,,,,,Always,Auto,Auto,,false,,Never,1
+EX-000006,Custom Contract Details,EX-000002,EX-000013,,0,false,Output_Show_Custom_Contract_Details__c,420,,,,,Always,,Auto,,false,,Never,1
 EX-000007,tesla Terms and Conditions - Part 2,EX-000002,EX-000014,,0,false,Output_Show_Standard_Terms__c,950,,,,,Auto,Auto,,,false,,,0
 EX-000008,Products and Pricing Header,EX-000002,EX-000007,,0,false,,200,,,,,Auto,Auto,,,false,,,0
 EX-000009,Recurring Totals with Discount,EX-000002,EX-000021,,0,false,Output_Show_Disc_Recurring_Lines__c,310,,,,,Always,Auto,,,false,,Never,0

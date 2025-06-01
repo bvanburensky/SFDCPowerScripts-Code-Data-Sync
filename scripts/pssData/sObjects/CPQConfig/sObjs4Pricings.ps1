@@ -4,20 +4,20 @@
 $packageHash = @{}
  
 $packageHash.add("Pricebook2", 
-@{fields   = "
+  @{fields      = "
 external_id__c,
 IsActive,
 Name ,
 Description,
 IsStandard
   ";
-    importOrder ="1"
-      ignore = $true
+    importOrder = "1"
+    ignore      = $false
     
-} ) 
+  } ) 
 
 $packageHash.add("SBQQ__BlockPrice__c",
-    @{fields   = 
+  @{fields      = 
     " external_id__c,
     SBQQ__EffectiveDate__c,
     SBQQ__LowerBound__c,
@@ -28,14 +28,14 @@ $packageHash.add("SBQQ__BlockPrice__c",
     SBQQ__Product__c,
     SBQQ__QuoteLine__c,
     SBQQ__UpperBound__c ";
-        importOrder ="2";
-        ignore = $true  #Not used currently 
-    } )   
+    importOrder = "2";
+    ignore      = $false  #Not used currently 
+  } )   
 
 
 
-    $packageHash.add("SBQQ__DiscountSchedule__c", 
-    @{fields   = "
+$packageHash.add("SBQQ__DiscountSchedule__c", 
+  @{fields      = "
     external_id__c,
     Name,
     SBQQ__Product__r.external_id__c,
@@ -61,11 +61,12 @@ $packageHash.add("SBQQ__BlockPrice__c",
     SBQQ__UsePriceForAmount__c,
     SBQQ__UserDefined__c
   ";
-        importOrder ="2"
-    } ) 
+    importOrder = "2"
+    ignore      = $false ;
+  } ) 
 
-    $packageHash.add("SBQQ__DiscountTier__c", 
-    @{fields   = "
+$packageHash.add("SBQQ__DiscountTier__c", 
+  @{fields      = "
     external_id__c,
     SBQQ__Schedule__r.external_id__c,
     Name ,
@@ -77,8 +78,9 @@ $packageHash.add("SBQQ__BlockPrice__c",
 
     SBQQ__UpperBound__c
       ";
-        importOrder ="2"
-    } ) 
+    importOrder = "2"
+    ignore      = $false ;
+  } ) 
 
 
 

@@ -98,7 +98,7 @@ if ($replace) {
 #$showExcluded = $false
 $showQuery = $true
 #This only applies to reterive 
-$whereOverride = "" ## " 'where Unique_ID__c in (''EX-020120033'')' "
+$whereOverride = "'where Unique_ID__c in (''EX-020120033'')' "
 
 #Add to the existing Query 'and field = ''asd '' ' if false then replaces any Where clause
 $whereOverrideAdd = $true
