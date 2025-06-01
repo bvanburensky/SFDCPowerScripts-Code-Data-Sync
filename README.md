@@ -26,11 +26,11 @@ then run the script dataGetDeploy.ps1
 more details: 
  pssData directory contains the ps1 scripts and data
 
- pssData
+### pssData
   -data
     -org
-     ## project-sprint 
-      -sourceAlias 
+   ### project-sprint 
+   -sourceAlias 
       -sObject1.csv
       -sobject2.csv
           ...
@@ -38,7 +38,7 @@ more details:
       -sObject1.csv
       -sobject2.csv
           ...
-  ## sObjects
+  ### sObjects
    -project-sprint ()
     -dataGetDeploy.ps1
       -sourceOrgAlias(alias)
