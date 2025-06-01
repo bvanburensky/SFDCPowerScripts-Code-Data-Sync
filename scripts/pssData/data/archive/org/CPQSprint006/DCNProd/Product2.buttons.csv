@@ -1,0 +1,211 @@
+Id,QLE_Button__c,SBQQ__SortOrder__c,ProductCode,Fulfillment_Family__c,Family,Revenue_Type__c,SBQQ__SubscriptionPricing__c,Name
+01tDo000000UZv4IAG,1x,,GS-RFB-BLDG,,Advertising,1X,,GreenSheet - Request for Bid Building
+01tDo000000UZtVIAW,Print,,GS-DSP-AFFM,,Advertising,Re-ocurring,Fixed Price,GreenSheet - Display Affirmative Action
+01tDo000000UZvJIAW,1x,,DDJ-DSP,,Advertising,1X,,Denver Daily Journal - Display
+01tDo000000UZoFIAW,1x,,DCN-CLS,,Advertising,1X,,Construction News Chicago - Classified
+01tDo000000UZlOIAW,1x,,DWB-CLS,,Advertising,1X,,Dodge Daily & Weekly Bulletins - Classified
+01tDo000000UZlLIAW,1x,,DDJ-OP,,Advertising,1X,,Denver Daily Journal - Official Proposal
+01tDo000000UZjiIAG,1x,,GS-RFB-ENG,,Advertising,1X,,GreenSheet - Request for Bid Engineering
+01tDo000000UZioIAG,1x,,DPB-CLS,,Advertising,1X,,Daily Pacific Builder - Classified
+01tDo000000UZiEIAW,1x,,DDJ-LEGL,,Advertising,1X,,Denver Daily Journal - Legal
+01tDo000000UZZdIAO,1x,,DDJ-CLS,,Advertising,1X,,Denver Daily Journal - Classified
+01tDo000000UZZNIA4,1x,,GS-DSP-ENG,,Advertising,1X,,GreenSheet - Display Engineering
+01tDo000000UZUcIAO,Print,,DDJ-DSP-AFFM,,Advertising,Re-ocurring,Fixed Price,Denver Daily Journal - Display Affirmative Action
+01tDo000000UZL2IAO,Print,,DPB-DSP-AFFM,,Advertising,Re-ocurring,Fixed Price,Daily Pacific Builder - Display Affirmative Action
+01tDo000000UaSMIA0,1x,,GS-CLS-ENG,,Advertising,1X,,GreenSheet - Classified Engineering
+01tDo000000UaPEIA0,1x,,DPB-DSP,,Advertising,1X,,Daily Pacific Builder - Display
+01tDo000000UaMTIA0,1x,,DCN-DSP,,Advertising,1X,,Construction News Chicago - Display
+01tDo000000UaHJIA0,1x,,DCN-SBBD,,Advertising,1X,,Construction News Chicago - SubBid
+01tDo000000UaEtIAK,1x,,DPB-RFB,,Advertising,1X,,Daily Pacific Builder - Request for Bid
+01tDo000000UZyVIAW,1x,,CONS-OP,,Advertising,1X,,Construction.com
+01tDo000000Ua4BIAS,Print,,DDJ-LEGL-INS,,Advertising,Re-ocurring,Fixed Price,Denver Daily Journal - Legal Insurance
+01tDo000000Ua4ZIAS,1x,,DCN-OP,,Advertising,1X,,Construction News Chicago - Official Proposal
+01tDo000000Ua5yIAC,1x,,GS-CLS-BLDG,,Advertising,1X,,GreenSheet - Classified Building
+01tDo000000Ua60IAC,1x,,DWB-DSP,,Advertising,1X,,Dodge Daily & Weekly Bulletins - Display
+01tDo000000Ua61IAC,1x,,DDJ-SBBD,,Advertising,1X,,Denver Daily Journal - Subbid
+01tDo000000Ua9VIAS,1x,,GS-DSP-BLDG,,Advertising,1X,,GreenSheet - Display Building
+01t3i000000el53AAA,Other,,SNPK,,Forecasts,ASV,Fixed Price,Sneak Peek
+01tDo000000UZxAIAW,1x,,MSSMDIG,,Marketing Solutions,1X,,Accelerate - SmartMarket Digest
+01tDo000000UZciIAG,1x,,MSCUSCON,,Marketing Solutions,1X,,Accelerate - Custom Content
+01tDo000000UZrgIAG,1x,,SMRE,,Marketing Solutions,1X,,SmartMarket Publication
+01tDo000000UaCcIAK,1x,,MSWEB,,Marketing Solutions,1X,,Accelerate - Sponsored Webinar
+01tDo000000UaCXIA0,1x,,SPONSOR,,Marketing Solutions,1X,,Accelerate - Research Sponsorship
+01tDo000000UZmkIAG,1x,,MSMICRO,,Marketing Solutions,1X,,Accelerate - Microsite Sponsorship  - Site
+01tDo000000Ua8DIAS,1x,,MSMICROVT,,Marketing Solutions,1X,,Accelerate - Microsite Sponsorship  - Vertical
+01tDo000000UZmDIAW,1x,,10Q,,Marketing Solutions,1X,,10Q
+01tDo000000UZikIAG,1x,,CRPBS,,Marketing Solutions,1X,Fixed Price,Accelerate - Custom Research Project - 1X
+01tDo000000UZiHIAW,1x,,ITBAD,,Marketing Solutions,1X,,Accelerate ITB Email Ad
+01tDo000000UZrbIAG,1x,,LQPBS,,Marketing Solutions,1X,,Accelerate - Outreach - 1X
+01tDo000000Ua2jIAC,1x,,ADVISR,,Marketing Solutions,1X,,Accelerate - DODGE Speaker Bureau
+01tDo000000UaMeIAK,1x,,EVTSPON,,Marketing Solutions,1X,,Accelerate - Event Sponsorship
+01tDo000000UZdKIAW,1x,,MSPODCAST,,Marketing Solutions,1X,,Accelerate - Smarter Building Podcast Series
+01tDo000000UaHPIA0,D/A,,CRP,,Marketing Solutions,Subscription,Fixed Price,Accelerate - Custom Research Project
+01tDo000000UZw9IAG,1x,,SPECWRF,,Sweets,1X,,Sweets Spec Writing Services
+01tDo000000Ua1xIAC,1x,,ENEWSO,,Sweets,1X,,Sweets E-Newsletter - 1X
+01tDo000000UaNCIA0,1x,,FPRODO,,Sweets,1X,,Sweets Featured Product Listing - 1X
+01tDo000000UZDkIAO,DCC,,ENEWSF,,Sweets,Subscription,Fixed Price,Sweets E-Newsletter
+01tDo000000UZHEIA4,DCC,,ODLRP,,Sweets,Subscription,Fixed Price,BSD Speclink
+01tDo000000UZT0IAO,DCC,,FPRODF,,Sweets,Subscription,Fixed Price,Sweets Featured Product Listing
+01tDo000000UZrnIAG,1x,,BIMCRF,,Sweets,1X,,Accelerate - BIM Creation
+01tDo000000UaDXIA0,1x,,CCFSBS,,Econ Forecasting,1X,,Canadian Construction Forecast - 1X
+01tDo000000UZdRIAW,D/A,,CMFSE,,Econ Forecasting,Subscription,Fixed Price,Construction Market Forecasting Service
+01tDo000000UZKoIAO,D/A,,CCFS,,Econ Forecasting,Subscription,Fixed Price,Canadian Construction Forecast
+01tDo000000UaSkIAK,1x,,CMFSEBS,,Econ Forecasting,1X,,Construction Market Forecasting Service - 1X
+01tDo000000Ua1BIAS,1x,,LSI1XC,,Data & Analytics,1X,,Res Prod Demand Reports County 1X
+01tDo000000Ua7CIAS,1x,,LSIMSA,,Data & Analytics,1X,,Res Prod Demand Reports MSA
+01tDo000000Ua9FIAS,1x,,MACFEBS-B,,Data & Analytics,1X,,Market Area Forecast Database - 1X Bundle
+01tDo000000Ua9tIAC,1x,,TRAKEBS-B,,Data & Analytics,1X,,MarketTrack - 1X - Bundle
+01tDo000000UaCbIAK,1x,,QSHF,,Data & Analytics,1X,,Quarterly State Housing Forecast
+01tDo000000UaDfIAK,1x,,CUSTANL,,Data & Analytics,1X,Fixed Price,Custom Analytics
+01tDo000000UaHsIAK,1x,,LSI1XMSA,,Data & Analytics,1X,,Res Prod Demand Reports MSA 1X
+01tDo000000UaJfIAK,1x,,PRODAN,,Data & Analytics,1X,,Custom Statistical Analytics
+01tDo000000UaK8IAK,1x,,FCST,,Data & Analytics,1X,,Planning & Budgeting Construction Forecast
+01tDo000000UaLeIAK,1x,,METSTX-B,,Data & Analytics,1X,,MetroInsight - 1X - Bundle
+01tDo000000UaMXIA0,1x,,CHR1,,Data & Analytics,1X,,Construction Housing Review - 1X
+01tDo000000UaNHIA0,1x,,LSIC,,Data & Analytics,1X,,Res Prod Demand Reports County
+01tDo000000UaRqIAK,D/A,,PIPE,,Data & Analytics,Subscription,Fixed Price,Supply Track
+01tDo000000UaTJIA0,1x,,LSI1XUS,,Data & Analytics,1X,,Res Prod Demand Reports US 1X
+01tDo000000UaTLIA0,1x,,DATALIC,,Data & Analytics,1X,,Custom Dodge data feed
+01tDo000000UaTPIA0,1x,,QSHFBS,,Data & Analytics,1X,,Quarterly State Housing Forecast 1x
+01tDo000000VBcdIAG,D/A,,SPLYTRK-B,,Data & Analytics,Subscription,Fixed Price,Real Estate Analyzer Bundle
+01t3i000000ekURAAY,1x,,PIPEBS,,Data & Analytics,1X,,Supply Track - 1X
+01t3i000000eknfAAA,1x,,PLCEBS,,Data & Analytics,1X,,Project Life Cycle - 1X
+01t3i000000el4tAAA,D/A,,LSI,,Data & Analytics,ASV,Fixed Price,Residential Statistics
+01tDo000000UZDWIA4,D/A,,BSDE-B,,Data & Analytics,Subscription,Fixed Price,Building Stock Database - Bundle
+01tDo000000UZDcIAO,D/A,,PLC-C,,Data & Analytics,Subscription,Fixed Price,PLC - Project Lifecycle - Custom
+01tDo000000UZFUIA4,D/A,,BSDE-C,,Data & Analytics,Subscription,Fixed Price,Building Stock Database - Custom
+01tDo000000UZHWIA4,1x,,LSI1X9R,,Data & Analytics,1X,,Res Prod Demand Reports 9 Regions 1X
+01tDo000000UZJHIA4,D/A,,CHR,,Data & Analytics,Subscription,Fixed Price,Construction Housing Review
+01tDo000000UZLcIAO,D/A,,MACFDE-C,,Data & Analytics,Subscription,Fixed Price,MACFD - Market Area Construction Forecast Database - Custom
+01tDo000000UZLkIAO,D/A,,CASE-C,,Data & Analytics,Subscription,Fixed Price,Construction Analysis System - Custom
+01tDo000000UZLwIAO,D/A,,MKTSH-B,,Data & Analytics,Subscription,Fixed Price,BI - MarketShare - Bundle
+01tDo000000UZNxIAO,D/A,,DCPBE,,Data & Analytics,Subscription,Fixed Price,Construction Potentials Bulletin
+01tDo000000UZPFIA4,D/A,,DCP-1R,,Data & Analytics,Subscription,Fixed Price,DCPBE - 1 Region
+01tDo000000UZPcIAO,D/A,,DCP-FULL,,Data & Analytics,Subscription,Fixed Price,DCPBE - Full
+01tDo000000Ua0OIAS,1x,,DPPE-BS-B,,Data & Analytics,1X,,Market Demand Systems - 1X Bundle
+01tDo000000UZyiIAG,1x,,LSI1XS,,Data & Analytics,1X,,Res Prod Demand Reports State 1X
+01tDo000000UZsgIAG,1x,,NBFS,,Data & Analytics,1X,,Non-Building Simulations
+01tDo000000UZuNIAW,1x,,BSDE-BS-B,,Data & Analytics,1X,,Building Stock Database - 1X Bundle
+01tDo000000UZvyIAG,1x,,PRODAN1X,,Data & Analytics,1X,,Custom Statistical Analytics 1X
+01tDo000000UZscIAG,1x,,FCST1X,,Data & Analytics,1X,,Planning & Budgeting Construction Forecast 1X
+01tDo000000UZpQIAW,1x,,LSIS,,Data & Analytics,1X,,Res Prod Demand Reports State
+01tDo000000UZPrIAO,D/A,,DPPE-C,,Data & Analytics,Subscription,Fixed Price,Market Demand Systems - Custom
+01tDo000000UZQ7IAO,D/A,,CASE-B,,Data & Analytics,Subscription,Fixed Price,Construction Analysis System - Bundle
+01tDo000000UZQiIAO,D/A,,PLCE,,Data & Analytics,Subscription,Fixed Price,Project Life Cycle
+01tDo000000UZRXIA4,D/A,,TRAKE-B,,Data & Analytics,ASV,Fixed Price,MarketTrack - Bundle
+01tDo000000UZRpIAO,D/A,,METSTE-B,,Data & Analytics,Subscription,Fixed Price,MetroInsight - Bundle
+01tDo000000UZSmIAO,D/A,,NRFS,,Data & Analytics,Subscription,Fixed Price,Non-Residential Building Simulations
+01tDo000000UZVaIAO,D/A,,MACFDE-B,,Data & Analytics,Subscription,Fixed Price,Market Area Forecast Database - Bundle
+01tDo000000UZWSIA4,D/A,,LOOKE-B,,Data & Analytics,Subscription,Fixed Price,MarketLook - Bundle
+01tDo000000UZXCIA4,D/A,,DCP-US,,Data & Analytics,Subscription,Fixed Price,DCPBE - US
+01tDo000000UZXEIA4,D/A,,DPPE-B,,Data & Analytics,Subscription,Fixed Price,Market Demand Systems - Bundle
+01tDo000000UZYHIA4,D/A,,LSI-C,,Data & Analytics,Subscription,Fixed Price,Residential Product Demand - Custom
+01tDo000000UZZIIA4,1x,,MKTSZ-CS,,Data & Analytics,1X,,Custom Set-Up Fee 1x
+01tDo000000UZZcIAO,1x,,CASE-BS-B,,Data & Analytics,1X,,Construction Analysis System - 1X Bundle
+01tDo000000UZb5IAG,1x,,LOOKEBS-B,,Data & Analytics,1X,,MarketLook - 1X - Bundle
+01tDo000000UZdNIAW,1x,,DATALIC1X,,Data & Analytics,1X,,Custom Dodge data feed 1X
+01tDo000000UZdVIAW,1x,,REFS,,Data & Analytics,1X,,Residential Simulations
+01tDo000000UZksIAG,1x,,MKTSHBS-B,,Data & Analytics,1X,Fixed Price,MarketShare - 1X Bundle
+01tDo000000UZnEIAW,1x,,CUSTANL1X,,Data & Analytics,1X,,Custom Analytics 1X
+01tDo000000UZotIAG,1x,,LSI9R,,Data & Analytics,1X,,Res Prod Demand Reports 9 Regions
+01tDo000000UaNUIA0,Other,,AMNSTY,,Network,ASV,Fixed Price,(Debt Relief Amnesty) A/R Amnesty
+01tDo000000UZVPIA4,Other,,DFSRESELL,,Network,Renewal Only,Fixed Price,Docupro Reseller Agreement
+01tDo000000UZPkIAO,Other,,DFSHOST,,Network,Renewal Only,Fixed Price,Docupro Hosting
+01tDo000000UZJLIA4,BB,,DA,Bluebook,Marketing Solutions,ASV,Fixed Price,Business Builder Awareness Accelerator
+01tDo000000UZFRIA4,BB,600,9J,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Silver Zone - Southeast
+01tDo000000UZFSIA4,BB,200,99,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Gold Zone - Northeast
+01tDo000000UZFgIAO,BB,1200,M,Bluebook,Network,Subscription,Fixed Price,The Blue Book - Manufacturer Listing
+01tDo000000UZGaIAO,BB,800,96,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Platinum Zone - Custom
+01tDo000000UZHUIA4,BB,600,9E,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Bronze Zone - Southeast
+01tDo000000UZHYIA4,BB,300,9T,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Bronze Zone - South Central
+01tDo000000UZIHIA4,BB,200,92,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Platinum Zone - Northeast
+01tDo000000UZJNIA4,BB,300,9O,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Silver Zone - South Central
+01tDo000000UZJkIAO,BB,100,8C,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Bronze Position
+01tDo000000UZJlIAO,BB,130,B,Bluebook,Network,Subscription,Fixed Price,The Blue Book - Super Alpha
+01tDo000000UZJtIAO,BB,500,9I,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Silver Zone - North Central
+01tDo000000UZLMIA4,BB,90,PP,Bluebook,Network,Subscription,Fixed Price,The Blue Book - Premium ProView
+01tDo000000UZLhIAO,BB,1200,9L,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - BidScope Plus
+01tDo000000UZLiIAO,BB,1200,1P,Bluebook,Network,Subscription,Fixed Price,The Blue Book - Regional Ad
+01tDo000000UZM0IAO,BB,300,93,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Platinum Zone - South Central
+01tDo000000UZMKIA4,BB,1000,9V,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Bronze Zone - National
+01tDo000000UZNHIA4,BB,500,90,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Platinum Zone - North Central
+01tDo000000UZNjIAO,BB,600,98,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Gold Zone - Southeast
+01tDo000000UZNkIAO,BB,800,9H,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Gold Zone - Custom
+01tDo000000UZOqIAO,BB,400,9D,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Gold Zone - West
+01tDo000000UZPiIAO,BB,500,97,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Gold Zone - North Central
+01tDo000000UZPnIAO,BB,1000,9R,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Silver Zone - National
+01tDo000000UZQHIA4,BB,100,4C,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Silver Position
+01tDo000000UZQMIA4,BB,200,9N,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Bronze Zone - Northeast
+01tDo000000UZSKIA4,BB,200,9K,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Silver Zone - Northeast
+01tDo000000UZSNIA4,BB,120,1C,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Platinum Position
+01tDo000000UZSRIA4,BB,130,C,Bluebook,Network,Subscription,Fixed Price,The Blue Book - Alpha Listing
+01tDo000000UZT2IAO,BB,2000,BR,Bluebook,Network,Subscription,Fixed Price,The Blue Book - Regional BidScope DDA
+01tDo000000UZU4IAO,BB,400,94,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Platinum Zone - West
+01tDo000000UZUdIAO,BB,1000,95,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Platinum Zone - National
+01tDo000000UZUeIAO,BB,1000,9F,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Gold Zone - National
+01tDo000000UZUrIAO,BB,800,9U,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Silver Zone - Custom
+01tDo000000UZWQIA4,BB,600,91,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Platinum Zone - Southeast
+01tDo000000UZWhIAO,BB,2000,BP,Bluebook,Network,Subscription,Fixed Price,The Blue Book - BidScope DDA
+01tDo000000UZWiIAO,BB,500,9C,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Bronze Zone - North Central
+01tDo000000UZWnIAO,BB,400,9Q,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Silver Zone - West
+01tDo000000UZX0IAO,BB,400,9W,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Bronze Zone - West
+01tDo000000UZXKIA4,BB,300,9A,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Gold Zone - South Central
+01tDo000000UZYPIA4,BB,800,9M,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Bronze Zone - Custom
+01tDo000000UZYRIA4,BB,110,2C,Bluebook,Network,Subscription,Fixed Price,The Blue Book Business Builder - Gold Position
+01tDo000000UaSxIAK,Print,,LQP,Horizon,Marketing Solutions,Subscription,Fixed Price,Accelerate - Outreach
+01tDo000000UZHnIAO,Print,,DR-B,Horizon,Print,Subscription,Fixed Price,Dodge Reports Bundle
+01tDo000000UZHbIAO,Print,,DCN-LA,Horizon,Print,Subscription,Fixed Price,Green Sheet Construction Newspaper
+01tDo000000UZWlIAO,Print,,DB-B,Horizon,Print,Subscription,Fixed Price,Dodge Bulletin - Bundle
+01tDo000000UZLVIA4,Print,,DPB,Horizon,Print,Subscription,Fixed Price,Daily Pacific Builder
+01tDo000000UZHDIA4,Print,,DELCHG,Horizon,Print,Subscription,Fixed Price,First Class Mailing
+01tDo000000UZPpIAO,Print,,DCN-CH,Horizon,Print,Subscription,Fixed Price,Chicago Construction Newspaper
+01tDo000000UZMlIAO,Print,,WM-B,Horizon,Print,Subscription,Fixed Price,Construction News Weekly - Bundle
+01tDo000000UZQLIA4,Print,,CN,Horizon,Print,Subscription,Fixed Price,Wal-Mart Custom Newsletter
+01tDo000000UZF8IAO,Print,,DDJ,Horizon,Print,Subscription,Fixed Price,Denver Daily Journal
+01t3i000000eiwYAAQ,DCC,,EMLF,Horizon,Sweets,Subscription,Fixed Price,Sweets
+01tDo000000Ua2FIAS,Other,,LEGACY,Horizon,Legacy Product,Renewal Only,Fixed Price,Dodge Global Network Access
+01tDo000000UZrSIAW,Other,,PLRMACC,Horizon,Flat Rate,Renewal Only,Fixed Price,DODGE PLANROOM ACCESS
+01tDo000000UZcjIAG,Other,,PRACC,Horizon,Flat Rate,Renewal Only,Fixed Price,PLANROOM PRO ACCESS
+01tDo000000UZF2IAO,D/A,,AICMFS,Horizon,Econ Forecasting,Subscription,Fixed Price,Construction Market Forecast Dashboard
+01tDo000000UZSWIA4,D/A,,AICCFS,Horizon,Econ Forecasting,Subscription,Fixed Price,Canadian Forecast Dashboard
+01tDo000000UZY9IAO,D/A,,NETDATFD,Horizon,Data Services,Subscription,Fixed Price,Network Express Data Feed
+01tDo000000UZJEIA4,D/A,,XMLBOTH,Horizon,Data Services,Subscription,Fixed Price,Regular and Custom XML Feed
+01tDo000000UZUXIA4,D/A,,NETFEED,Horizon,Data Services,Subscription,Fixed Price,Network XML Feed
+01tDo000000UZTyIAO,D/A,,XMLCUS,Horizon,Data Services,Subscription,Fixed Price,Custom XML Feed
+01tDo000000UZHKIA4,D/A,,XMLREG,Horizon,Data Services,Subscription,Fixed Price,Reqular XML Feed
+01tDo000000UZQ5IAO,D/A,,DUNS,Horizon,Data & Analytics,Subscription,Fixed Price,D&B Leads
+01tDo000000UaSSIA0,1x,,BDSCPQID,Horizon,Data & Analytics,1X,Fixed Price,Custom Data Delivery - 1X
+01tDo000000UZQIIA4,D/A,,AIPLHD,Horizon,Data & Analytics,Subscription,Fixed Price,Planholders
+01tDo000000UZcLIAW,Other,,DPQ,Horizon,Data & Analytics,Renewal Only,Fixed Price,Dodge Product Quantities
+01tDo000000UZeGIAW,1x,,LSIUS,Horizon,Data & Analytics,1X,,Res Prod Demand Reports US
+01tDo000000UZU8IAO,D/A,,AITCST-B,Horizon,Data & Analytics,Subscription,Fixed Price,BI - SpecShare - Bundle
+01tDo000000UaA4IAK,1x,,BDSCDS,Horizon,Data & Analytics,1X,Fixed Price,Custom Data Services
+01tDo000000UZxBIAW,Other,,AIACC,Horizon,Data & Analytics,Renewal Only,Fixed Price,ANALYTICS INNOVATION ACCESS
+01tDo000000UZTkIAO,D/A,,BDSCPCDD,Horizon,Data & Analytics,Subscription,Fixed Price,Custom Data Delivery
+01tDo000000Ua6bIAC,1x,,AISPBS-B,Horizon,Data & Analytics,1X,,BI - SpecShare - 1X Bundle
+01tDo000000UZY8IAO,D/A,,API,Horizon,Data & Analytics,Subscription,Fixed Price,Dodge API
+01tDo000000UZP7IAO,D/A,,XMLSPSH,Horizon,Data & Analytics,Subscription,Fixed Price,XML SpecShare Feed
+01tDo000000UZYYIA4,D/A,,DUNSFD,Horizon,Data & Analytics,Subscription,Fixed Price,D&B Leads Feed
+01tDo000000UZMqIAO,D/A,,NETBOD,Horizon,Data & Analytics,Subscription,Fixed Price,Basis of Design
+01tDo000000UZXIIA4,D/A,,TLSPAL-B,Horizon,Data & Analytics,Subscription,Fixed Price,BI - SpecAlerts - Bundle
+01tDo000000UZQCIA4,D/A,,BLDSHNET-B,Horizon,Data & Analytics,Subscription,Fixed Price,BI - BuildShare - Bundle
+01tDo000000UZYxIAO,DCC,,PIPE-NETNEW,Horizon,Network,Subscription,Fixed Price,Pipeline News Only Wrapper
+01tDo000000UZYsIAO,DCC,,PLRM,Horizon,Network,Subscription,Fixed Price,PlanRoom
+01tDo000000UZYJIA4,DCC,,PIPE-NETNP,Horizon,Network,Subscription,Fixed Price,Pipeline News and Plans Wrapper
+01tDo000000UZXGIA4,DCC,,DGN-NETFPNP,Horizon,Network,Subscription,Fixed Price,DGN Final Planning and Plans Wrapper
+01tDo000000UZX3IAO,DCC,,EXPCPMS,Horizon,Network,Subscription,Fixed Price,PipeLine for Dynamics
+01tDo000000UZVEIA4,DCC,,LEADSCUS,Horizon,Network,Subscription,Fixed Price,Leads Express for Sweets
+01tDo000000UZUfIAO,DCC,,DGN-NETNEW,Horizon,Network,Subscription,Fixed Price,DGN News Only Wrapper
+01tDo000000UZTwIAO,DCC,,DCC-NETFPNP,Horizon,Network,Subscription,Fixed Price,DCC Final Planning and Plans Wrapper
+01tDo000000UZSaIAO,DCC,,DCC-NETNEW,Horizon,Network,Subscription,Fixed Price,DCC News Only Wrapper
+01tDo000000UZQfIAO,DCC,,EXPCPSF,Horizon,Network,Subscription,Fixed Price,Network Express CP for Salesforce
+01tDo000000UZQUIA4,DCC,,DCC-NETNP,Horizon,Network,Subscription,Fixed Price,DCC News and Plans Wrapper
+01tDo000000UZQ0IAO,DCC,,PIPE-NETFPNP,Horizon,Network,Subscription,Fixed Price,Pipeline Final Planning and Plans Wrapper
+01tDo000000UZPgIAO,DCC,,LEADSEXP,Horizon,Network,Subscription,Fixed Price,Leads Express for Sweets
+01tDo000000UZNgIAO,DCC,,DCC2-NETNP,Horizon,Network,Subscription,Fixed Price,DCC 2.0 News and Plans Wrapper
+01tDo000000UZLHIA4,DCC,,EXPLIC,Horizon,Network,Subscription,Fixed Price,Network Express Licensed Users
+01tDo000000UZFaIAO,DCC,,DCC2-NETFPNP,Horizon,Network,Subscription,Fixed Price,DCC 2.0 Final Planning and Plans Wrapper
+01tDo000000UZFZIA4,DCC,,DGN-NETNP,Horizon,Network,Subscription,Fixed Price,DGN News and Plans Wrapper
+01tDo000000UZEzIAO,DCC,,PRPLRM,Horizon,Network,Subscription,Fixed Price,PlanRoom Pro
+01tDo000000UZEoIAO,DCC,,UNLLEAD,Horizon,Network,Subscription,Fixed Price,Sweets Media Leads
+01tDo000000UZXFIA4,IMS,,IMS-BUNDLE,Client Portal,IMS,Subscription,Fixed Price,IMS Bundle Wrapper

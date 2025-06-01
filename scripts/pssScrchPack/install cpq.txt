@@ -1,0 +1,12 @@
+
+dev / scratch
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04tak0000007tKjAAI
+
+CPQ Steel brick 
+04t6T000000t6RBQAY
+
+y
+ 
+
+ https://install.steelbrick.com/installcpq
+ 

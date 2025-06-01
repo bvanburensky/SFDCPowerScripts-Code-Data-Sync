@@ -1,0 +1,2 @@
+Id,Name,Invalid_Option_Subscription__c,SBQQ__ConfiguredSKU__r.Name,SBQQ__ConfiguredSKU__r.SBQQ__SubscriptionPricing__c,Is_Subscription_Configured__c,SBQQ__OptionalSKU__r.Name,SBQQ__OptionalSKU__r.SBQQ__SubscriptionPricing__c,Is_Subscription__c,SBQQ__Number__c,SBQQ__UpliftedByPackage__c
+a65Do000000wovEIAQ,PO-007079,true,BI - SpecShare - 1X Bundle,,false,Output Lines,Fixed Price,true,20,false

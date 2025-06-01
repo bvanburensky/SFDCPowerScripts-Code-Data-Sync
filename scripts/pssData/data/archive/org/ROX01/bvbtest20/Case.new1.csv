@@ -1,0 +1,106 @@
+﻿autothis__c,AccountId,AssetId,Comments,ContactId,Description,EngineeringReqNumber__c,Origin,OwnerId,PotentialLiability__c,Priority,Product__c,Reason,SLAViolation__c,Status,Subject,SuppliedCompany,SuppliedEmail,SuppliedName,SuppliedPhone,Type
+A-00204,001Ot00000cIEQ7IAO,,,003Ot00000lnnsbIAA,,765876,DriveThru,005Ot00000NKL6PIAX,Yes,High,GC5040,Equipment Complexity,Yes,Escalated,Starting generator after electrical failure,,,,,Electrical
+A-00203,001Ot00000cIEQCIA4,,,003Ot00000lnnssIAA,hey,767145,DriveThru,005Ot00000NKL6PIAX,Yes,High,GC1060,Installation,Yes,Escalated,Installation inadequate for second consecutive week,,,jack,,Electrical
+A-00202,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,mana,,Rock,005Ot00000NKL6PIAX,Yes,Low,GC3060,Installation,Yes,Working,Seeking guidance on electrical wiring installation for GC5060,,,,,Electrical
+A-00201,001Ot00000cIEQDIA4,,,003Ot00000lnnskIAA,,,Rock,005Ot00000NKL6PIAX,Yes,Low,GC1020,Installation,Yes,Escalated,Easy installation process,,,,,Other
+A-00200,001Ot00000cIEQDIA4,,,003Ot00000lnnskIAA,,784532,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC5020,Other,Yes,Escalated,Maintenance guidelines for generator unclear,,,,,Other
+A-00199,001Ot00000cIEQDIA4,,,003Ot00000lnnslIAA,,653780,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC1060,Installation,Yes,Escalated,Electrical circuit malfunctioning,,,,,Electrical
+A-00198,001Ot00000cIEQHIA4,,,003Ot00000lnnsrIAA,,253574,DriveThru,005Ot00000NKL6PIAX,Yes,Low,GC1020,Breakdown,Yes,Escalated,Generator assembly instructions unclear,,,,,Other
+A-00197,001Ot00000cIEQBIA4,,,003Ot00000lnnsgIAA,,835735,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC1040,Breakdown,Yes,Escalated,Structural breakdown of rotor assembly,,,,,Structural
+A-00196,001Ot00000cIEQBIA4,,,003Ot00000lnnsgIAA,,,Rock,005Ot00000NKL6PIAX,Yes,Low,GC1020,Breakdown,Yes,Escalated,Customer service for portable generators needs beefing up,,,,,Other
+A-00195,001Ot00000cIEQFIA4,,,003Ot00000lnnsoIAA,,365782,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC3040,Other,Yes,Escalated,Mechanical maintenance guidelines for generator misleading,,,,,Mechanical
+A-00194,001Ot00000cIEQGIA4,,,003Ot00000lnnspIAA,,658733,Rock,005Ot00000NKL6PIAX,Yes,Low,GC1060,Breakdown,Yes,Escalated,Maintenance guidelines for generator unclear,,,,,Other
+A-00193,001Ot00000cIEQGIA4,,,003Ot00000lnnsqIAA,,965884,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC3020,Equipment Design,Yes,Escalated,Crushed panel fitting loose,,,,,Crushed
+A-00192,001Ot00000cIEQEIA4,,,003Ot00000lnnsmIAA,,347209,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC1020,Breakdown,Yes,Escalated,Repeated motor breakdown while shutting off,,,,,Electrical
+A-00191,001Ot00000cIEQBIA4,,,003Ot00000lnnshIAA,,654623,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC5020,Equipment Design,Yes,Escalated,Starting up generator consumes excessive power,,,,,Other
+A-00190,001Ot00000cIEQBIA4,,,003Ot00000lnnshIAA,,,DriveThru,005Ot00000NKL6PIAX,Yes,High,GC3020,Installation,Yes,Escalated,Delay in installation; spare parts unavailable,,,,,Other
+A-00189,001Ot00000cIEQGIA4,,,003Ot00000lnnsqIAA,,354982,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC3060,Breakdown,Yes,Escalated,Frequent mechanical breakdown,,,,,Mechanical
+A-00188,001Ot00000cIEQHIA4,,,003Ot00000lnnsrIAA,,651375,Rock,005Ot00000NKL6PIAX,Yes,Low,GC5020,Breakdown,Yes,Working,Maintenance guidelines for generator unclear,,,,,Other
+A-00187,001Ot00000cIEQ7IAO,,,003Ot00000lnnscIAA,,736734,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC1040,Equipment Complexity,Yes,Escalated,Shutting down of generator,,,,,Mechanical
+A-00186,001Ot00000cIEQ7IAO,,,003Ot00000lnnscIAA,,526714,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC1040,Equipment Complexity,Yes,Escalated,CanYest start generator after electrical failure,,,,,Electrical
+A-00185,001Ot00000cIEQ8IAO,,,003Ot00000lnnsdIAA,,636265,Rock,005Ot00000NKL6PIAX,Yes,High,GC5060,Equipment Design,Yes,Escalated,Structural failure of generator base,,,,,Structural
+A-00184,001Ot00000cIEQ8IAO,,,003Ot00000lnnsdIAA,,237645,DriveThru,005Ot00000NKL6PIAX,Yes,Low,GC3060,Installation,Yes,Escalated,Power generation below stated level,,,,,Electrical
+A-00183,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,hello,435143,Email,005Ot00000NKL6PIAX,Yes,High,GC3060,Installation,Yes,Working,Generator GC3060 platform structure is weakening,,,,,Structural
+A-00182,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,,456345,Rock,005Ot00000NKL6PIAX,Yes,Low,GC5060,Installation,Yes,Escalated,Signal panel on GC5060 blinks intermittently,,,,,Crushed
+A-00181,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,set Medium,265794,DriveThru,005Ot00000NKL6PIAX,Yes,High,GC5060,Other,Yes,Escalated,Electric surge damaging adjacent equipment,,,,,Electrical
+A-00180,001Ot00000cIEQCIA4,,,003Ot00000lnnsjIAA,,868314,Rock,005Ot00000NKL6PIAX,Yes,Low,GC3040,Equipment Design,Yes,Working,Design issue with mechanical rotor,,,,,Mechanical
+A-00179,001Ot00000cIEQCIA4,,,003Ot00000lnnsjIAA,,,,005Ot00000NKL6PIAX,,Medium,,,,Working,,,,,,
+A-00178,001Ot00000cIEQCIA4,,,003Ot00000lnnsjIAA,,572546,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC5040,Equipment Design,Yes,Escalated,Motor design hindering Installation,,,,,Electrical
+A-00177,001Ot00000cIEQCIA4,,,003Ot00000lnnsjIAA,,868314,Rock,005Ot00000NKL6PIAX,Yes,Low,GC3040,Equipment Design,Yes,Working,Design issue with mechanical rotor,,,,,Mechanical
+A-00176,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,set Medium,265794,DriveThru,005Ot00000NKL6PIAX,Yes,High,GC5060,Other,Yes,Escalated,Electric surge damaging adjacent equipment,,,,,Electrical
+A-00175,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,,456345,Rock,005Ot00000NKL6PIAX,Yes,Low,GC5060,Installation,Yes,Escalated,Signal panel on GC5060 blinks intermittently,,,,,Crushed
+A-00174,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,hello,435143,Email,005Ot00000NKL6PIAX,Yes,High,GC3060,Installation,Yes,Working,Generator GC3060 platform structure is weakening,,,,,Structural
+A-00173,001Ot00000cIEQ8IAO,,,003Ot00000lnnsdIAA,,237645,DriveThru,005Ot00000NKL6PIAX,Yes,Low,GC3060,Installation,Yes,Escalated,Power generation below stated level,,,,,Electrical
+A-00172,001Ot00000cIEQ8IAO,,,003Ot00000lnnsdIAA,,636265,Rock,005Ot00000NKL6PIAX,Yes,High,GC5060,Equipment Design,Yes,Escalated,Structural failure of generator base,,,,,Structural
+A-00171,001Ot00000cIEQ7IAO,,,003Ot00000lnnscIAA,,526714,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC1040,Equipment Complexity,Yes,Escalated,CanYest start generator after electrical failure,,,,,Electrical
+A-00170,001Ot00000cIEQ7IAO,,,003Ot00000lnnscIAA,,736734,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC1040,Equipment Complexity,Yes,Escalated,Shutting down of generator,,,,,Mechanical
+A-00169,001Ot00000cIEQHIA4,,,003Ot00000lnnsrIAA,,651375,Rock,005Ot00000NKL6PIAX,Yes,Low,GC5020,Breakdown,Yes,Working,Maintenance guidelines for generator unclear,,,,,Other
+A-00168,001Ot00000cIEQGIA4,,,003Ot00000lnnsqIAA,,354982,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC3060,Breakdown,Yes,Escalated,Frequent mechanical breakdown,,,,,Mechanical
+A-00167,001Ot00000cIEQBIA4,,,003Ot00000lnnshIAA,,,DriveThru,005Ot00000NKL6PIAX,Yes,High,GC3020,Installation,Yes,Escalated,Delay in installation; spare parts unavailable,,,,,Other
+A-00166,001Ot00000cIEQBIA4,,,003Ot00000lnnshIAA,,654623,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC5020,Equipment Design,Yes,Escalated,Starting up generator consumes excessive power,,,,,Other
+A-00165,001Ot00000cIEQEIA4,,,003Ot00000lnnsmIAA,,347209,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC1020,Breakdown,Yes,Escalated,Repeated motor breakdown while shutting off,,,,,Electrical
+A-00164,001Ot00000cIEQGIA4,,,003Ot00000lnnsqIAA,,965884,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC3020,Equipment Design,Yes,Escalated,Crushed panel fitting loose,,,,,Crushed
+A-00163,001Ot00000cIEQGIA4,,,003Ot00000lnnspIAA,,658733,Rock,005Ot00000NKL6PIAX,Yes,Low,GC1060,Breakdown,Yes,Escalated,Maintenance guidelines for generator unclear,,,,,Other
+A-00162,001Ot00000cIEQFIA4,,,003Ot00000lnnsoIAA,,365782,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC3040,Other,Yes,Escalated,Mechanical maintenance guidelines for generator misleading,,,,,Mechanical
+A-00161,001Ot00000cIEQBIA4,,,003Ot00000lnnsgIAA,,,Rock,005Ot00000NKL6PIAX,Yes,Low,GC1020,Breakdown,Yes,Escalated,Customer service for portable generators needs beefing up,,,,,Other
+A-00160,001Ot00000cIEQBIA4,,,003Ot00000lnnsgIAA,,835735,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC1040,Breakdown,Yes,Escalated,Structural breakdown of rotor assembly,,,,,Structural
+A-00159,001Ot00000cIEQHIA4,,,003Ot00000lnnsrIAA,,253574,DriveThru,005Ot00000NKL6PIAX,Yes,Low,GC1020,Breakdown,Yes,Escalated,Generator assembly instructions unclear,,,,,Other
+A-00158,001Ot00000cIEQDIA4,,,003Ot00000lnnslIAA,,653780,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC1060,Installation,Yes,Escalated,Electrical circuit malfunctioning,,,,,Electrical
+A-00157,001Ot00000cIEQDIA4,,,003Ot00000lnnskIAA,,784532,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC5020,Other,Yes,Escalated,Maintenance guidelines for generator unclear,,,,,Other
+A-00156,001Ot00000cIEQDIA4,,,003Ot00000lnnskIAA,,,Rock,005Ot00000NKL6PIAX,Yes,Low,GC1020,Installation,Yes,Escalated,Easy installation process,,,,,Other
+A-00155,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,mana,,Rock,005Ot00000NKL6PIAX,Yes,Low,GC3060,Installation,Yes,Working,Seeking guidance on electrical wiring installation for GC5060,,,,,Electrical
+A-00154,001Ot00000cIEQCIA4,,,003Ot00000lnnssIAA,hey,767145,DriveThru,005Ot00000NKL6PIAX,Yes,High,GC1060,Installation,Yes,Escalated,Installation inadequate for second consecutive week,,,jack,,Electrical
+A-00153,001Ot00000cIEQ7IAO,,,003Ot00000lnnsbIAA,,765876,DriveThru,005Ot00000NKL6PIAX,Yes,High,GC5040,Equipment Complexity,Yes,Escalated,Starting generator after electrical failure,,,,,Electrical
+A-00152,001Ot00000cIEQ7IAO,,,003Ot00000lnnsbIAA,,765876,DriveThru,005Ot00000NKL6PIAX,Yes,High,GC5040,Equipment Complexity,Yes,Escalated,Starting generator after electrical failure,,,,,Electrical
+A-00151,001Ot00000cIEQCIA4,,,003Ot00000lnnssIAA,hey,767145,DriveThru,005Ot00000NKL6PIAX,Yes,High,GC1060,Installation,Yes,Escalated,Installation inadequate for second consecutive week,,,jack,,Electrical
+A-00150,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,mana,,Rock,005Ot00000NKL6PIAX,Yes,Low,GC3060,Installation,Yes,Working,Seeking guidance on electrical wiring installation for GC5060,,,,,Electrical
+A-00149,001Ot00000cIEQDIA4,,,003Ot00000lnnskIAA,,,Rock,005Ot00000NKL6PIAX,Yes,Low,GC1020,Installation,Yes,Escalated,Easy installation process,,,,,Other
+A-00148,001Ot00000cIEQDIA4,,,003Ot00000lnnskIAA,,784532,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC5020,Other,Yes,Escalated,Maintenance guidelines for generator unclear,,,,,Other
+A-00147,001Ot00000cIEQDIA4,,,003Ot00000lnnslIAA,,653780,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC1060,Installation,Yes,Escalated,Electrical circuit malfunctioning,,,,,Electrical
+A-00146,001Ot00000cIEQHIA4,,,003Ot00000lnnsrIAA,,253574,DriveThru,005Ot00000NKL6PIAX,Yes,Low,GC1020,Breakdown,Yes,Escalated,Generator assembly instructions unclear,,,,,Other
+A-00145,001Ot00000cIEQBIA4,,,003Ot00000lnnsgIAA,,835735,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC1040,Breakdown,Yes,Escalated,Structural breakdown of rotor assembly,,,,,Structural
+A-00144,001Ot00000cIEQBIA4,,,003Ot00000lnnsgIAA,,,Rock,005Ot00000NKL6PIAX,Yes,Low,GC1020,Breakdown,Yes,Escalated,Customer service for portable generators needs beefing up,,,,,Other
+A-00143,001Ot00000cIEQFIA4,,,003Ot00000lnnsoIAA,,365782,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC3040,Other,Yes,Escalated,Mechanical maintenance guidelines for generator misleading,,,,,Mechanical
+A-00142,001Ot00000cIEQGIA4,,,003Ot00000lnnspIAA,,658733,Rock,005Ot00000NKL6PIAX,Yes,Low,GC1060,Breakdown,Yes,Escalated,Maintenance guidelines for generator unclear,,,,,Other
+A-00141,001Ot00000cIEQGIA4,,,003Ot00000lnnsqIAA,,965884,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC3020,Equipment Design,Yes,Escalated,Water panel fitting loose,,,,,Water
+A-00140,001Ot00000cIEQEIA4,,,003Ot00000lnnsmIAA,,347209,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC1020,Breakdown,Yes,Escalated,Repeated motor breakdown while shutting off,,,,,Electrical
+A-00139,001Ot00000cIEQBIA4,,,003Ot00000lnnshIAA,,654623,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC5020,Equipment Design,Yes,Escalated,Starting up generator consumes excessive power,,,,,Other
+A-00138,001Ot00000cIEQBIA4,,,003Ot00000lnnshIAA,,,DriveThru,005Ot00000NKL6PIAX,Yes,High,GC3020,Installation,Yes,Escalated,Delay in installation; spare parts unavailable,,,,,Other
+A-00137,001Ot00000cIEQGIA4,,,003Ot00000lnnsqIAA,,354982,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC3060,Breakdown,Yes,Escalated,Frequent mechanical breakdown,,,,,Mechanical
+A-00136,001Ot00000cIEQHIA4,,,003Ot00000lnnsrIAA,,651375,Rock,005Ot00000NKL6PIAX,Yes,Low,GC5020,Breakdown,Yes,Working,Maintenance guidelines for generator unclear,,,,,Other
+A-00135,001Ot00000cIEQ7IAO,,,003Ot00000lnnscIAA,,736734,Rock,005Ot00000NKL6PIAX,Yes,Medium,GC1040,Equipment Complexity,Yes,Escalated,Shutting down of generator,,,,,Mechanical
+A-00134,001Ot00000cIEQ7IAO,,,003Ot00000lnnscIAA,,526714,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC1040,Equipment Complexity,Yes,Escalated,CanYest start generator after electrical failure,,,,,Electrical
+A-00133,001Ot00000cIEQ8IAO,,,003Ot00000lnnsdIAA,,636265,Rock,005Ot00000NKL6PIAX,Yes,High,GC5060,Equipment Design,Yes,Escalated,Structural failure of generator base,,,,,Structural
+A-00132,001Ot00000cIEQ8IAO,,,003Ot00000lnnsdIAA,,237645,DriveThru,005Ot00000NKL6PIAX,Yes,Low,GC3060,Installation,Yes,Escalated,Power generation below stated level,,,,,Electrical
+A-00131,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,hello,435143,Email,005Ot00000NKL6PIAX,Yes,High,GC3060,Installation,Yes,Working,Generator GC3060 platform structure is weakening,,,,,Structural
+A-00130,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,,456345,Rock,005Ot00000NKL6PIAX,Yes,Low,GC5060,Installation,Yes,Escalated,Signal panel on GC5060 blinks intermittently,,,,,Water
+A-00129,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,set Medium,265794,DriveThru,005Ot00000NKL6PIAX,Yes,High,GC5060,Other,Yes,Escalated,Electric surge damaging adjacent equipment,,,,,Electrical
+A-00128,001Ot00000cIEQCIA4,,,003Ot00000lnnsjIAA,,868314,Rock,005Ot00000NKL6PIAX,Yes,Low,GC3040,Equipment Design,Yes,Working,Design issue with mechanical rotor,,,,,Mechanical
+A-00127,001Ot00000cIEQCIA4,,,003Ot00000lnnsjIAA,,572546,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC5040,Equipment Design,Yes,Escalated,Motor design hindering Installation,,,,,Electrical
+A-00126,001Ot00000cIEQCIA4,,,003Ot00000lnnsjIAA,,572546,DriveThru,005Ot00000NKL6PIAX,Yes,Medium,GC5040,Equipment Design,Yes,Escalated,Motor design hindering Installation,,,,,Electrical
+A-00125,001Ot00000cIEQCIA4,,,003Ot00000lnnsjIAA,,572546,Phone,005Ot00000NKL6PIAX,No,Medium,GC5040,Equipment Design,No,Closed,Motor design hindering performance,,,,,Electrical
+A-00124,001Ot00000cIEQCIA4,,,003Ot00000lnnsjIAA,,868314,Web,005Ot00000NKL6PIAX,No,Low,GC3040,Equipment Design,No,New,Design issue with mechanical rotor,,,,,Mechanical
+A-00123,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,set Medium,265794,Phone,005Ot00000NKL6PIAX,No,High,GC5060,Other,No,Closed,Electric surge damaging adjacent equipment,,,,,Electrical
+A-00122,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,,456345,Web,005Ot00000NKL6PIAX,No,Low,GC5060,Performance,No,Closed,Signal panel on GC5060 blinks intermittently,,,,,Electronic
+A-00121,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,hello,435143,Email,005Ot00000NKL6PIAX,Yes,High,GC3060,Installation,Yes,Working,Generator GC3060 platform structure is weakening,,,,,Structural
+A-00120,001Ot00000cIEQ8IAO,,,003Ot00000lnnsdIAA,,237645,Phone,005Ot00000NKL6PIAX,Yes,Low,GC3060,Performance,No,Closed,Power generation below stated level,,,,,Electrical
+A-00119,001Ot00000cIEQ8IAO,,,003Ot00000lnnsdIAA,,636265,Web,005Ot00000NKL6PIAX,Yes,High,GC5060,Equipment Design,No,Closed,Structural failure of generator base,,,,,Structural
+A-00118,001Ot00000cIEQ7IAO,,,003Ot00000lnnscIAA,,526714,Phone,005Ot00000NKL6PIAX,No,Medium,GC1040,Equipment Complexity,No,Closed,Cannot start generator after electrical failure,,,,,Electrical
+A-00117,001Ot00000cIEQ7IAO,,,003Ot00000lnnscIAA,,736734,Web,005Ot00000NKL6PIAX,No,Medium,GC1040,Equipment Complexity,No,Closed,Shutting down of generator,,,,,Mechanical
+A-00116,001Ot00000cIEQHIA4,,,003Ot00000lnnsrIAA,,651375,Web,005Ot00000NKL6PIAX,No,Low,GC5020,Feedback,No,New,Maintenance guidelines for generator unclear,,,,,Other
+A-00115,001Ot00000cIEQGIA4,,,003Ot00000lnnsqIAA,,354982,Web,005Ot00000NKL6PIAX,Yes,Medium,GC3060,Breakdown,No,Closed,Frequent mechanical breakdown,,,,,Mechanical
+A-00114,001Ot00000cIEQBIA4,,,003Ot00000lnnshIAA,,,Phone,005Ot00000NKL6PIAX,Yes,High,GC3020,Installation,No,Closed,Delay in installation; spare parts unavailable,,,,,Other
+A-00113,001Ot00000cIEQBIA4,,,003Ot00000lnnshIAA,,654623,Web,005Ot00000NKL6PIAX,No,Medium,GC5020,Equipment Design,No,Closed,Starting up generator consumes excessive power,,,,,Other
+A-00112,001Ot00000cIEQEIA4,,,003Ot00000lnnsmIAA,,347209,Web,005Ot00000NKL6PIAX,Yes,Medium,GC1020,Breakdown,Yes,Closed,Repeated motor breakdown while shutting off,,,,,Electrical
+A-00111,001Ot00000cIEQGIA4,,,003Ot00000lnnsqIAA,,965884,Web,005Ot00000NKL6PIAX,No,Medium,GC3020,Equipment Design,No,Closed,Electronic panel fitting loose,,,,,Electronic
+A-00110,001Ot00000cIEQGIA4,,,003Ot00000lnnspIAA,,658733,Web,005Ot00000NKL6PIAX,No,Low,GC1060,Feedback,No,Closed,Maintenance guidelines for generator unclear,,,,,Other
+A-00109,001Ot00000cIEQFIA4,,,003Ot00000lnnsoIAA,,365782,Phone,005Ot00000NKL6PIAX,Yes,Medium,GC3040,Other,No,Closed,Mechanical maintenance guidelines for generator misleading,,,,,Mechanical
+A-00108,001Ot00000cIEQBIA4,,,003Ot00000lnnsgIAA,,,Web,005Ot00000NKL6PIAX,No,Low,GC1020,Feedback,No,Closed,Customer service for portable generators needs beefing up,,,,,Other
+A-00107,001Ot00000cIEQBIA4,,,003Ot00000lnnsgIAA,,835735,Phone,005Ot00000NKL6PIAX,No,Medium,GC1040,Breakdown,No,Closed,Structural breakdown of rotor assembly,,,,,Structural
+A-00106,001Ot00000cIEQHIA4,,,003Ot00000lnnsrIAA,,253574,Phone,005Ot00000NKL6PIAX,No,Low,GC1020,Feedback,No,Closed,Generator assembly instructions unclear,,,,,Other
+A-00105,001Ot00000cIEQDIA4,,,003Ot00000lnnslIAA,,653780,Phone,005Ot00000NKL6PIAX,Yes,Medium,GC1060,Performance,No,Closed,Electrical circuit malfunctioning,,,,,Electrical
+A-00104,001Ot00000cIEQDIA4,,,003Ot00000lnnskIAA,,784532,Phone,005Ot00000NKL6PIAX,No,Medium,GC5020,Other,No,Closed,Maintenance guidelines for generator unclear,,,,,Other
+A-00103,001Ot00000cIEQDIA4,,,003Ot00000lnnskIAA,,,Web,005Ot00000NKL6PIAX,No,Low,GC1020,Installation,No,Closed,Easy installation process,,,,,Other
+A-00102,001Ot00000cIEQCIA4,,,003Ot00000lnnsiIAA,mana,,Web,005Ot00000NKL6PIAX,No,Low,GC3060,Installation,No,New,Seeking guidance on electrical wiring installation for GC5060,,,,,Electrical
+A-00101,001Ot00000cIEQCIA4,,,003Ot00000lnnssIAA,hey,767145,Phone,005Ot00000NKL6PIAX,Yes,High,GC1060,Performance,Yes,Closed,Performance inadequate for second consecutive week,,,jack,,Electrical
+A-00100,001Ot00000cIEQ7IAO,,,003Ot00000lnnsbIAA,,765876,Phone,005Ot00000NKL6PIAX,No,High,GC5040,Equipment Complexity,No,Closed,Starting generator after electrical failure,,,,,Electrical

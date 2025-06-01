@@ -1,0 +1,26 @@
+External_Id__c,Name,SBQQ__Template__r.External_Id__c,SBQQ__Content__r.External_Id__c,SBQQ__BorderColor__c,SBQQ__BottomMargin__c,SBQQ__ColumnHeaderHidden__c,SBQQ__ConditionalPrintField__c,SBQQ__DisplayOrder__c,SBQQ__FilterField__c,SBQQ__FilterOperator__c,SBQQ__FilterValue__c,SBQQ__GroupField__c,SBQQ__KeepTogether__c,SBQQ__KeepWithNext__c,SBQQ__KeepWithPrevious__c,SBQQ__PageBreak__c,SBQQ__QuoteTotalsPrinted__c,SBQQ__RollUpField__c,SBQQ__SummaryDisplay__c,SBQQ__TopMargin__c
+EX-000022,Amendment Recurring Quote Lines with discounts,EX-000002,EX-000004,,0,false,Output_Show_Recurring_QL_Totals__c,300,Output_Display_Table__c,contains,Recurring,,Auto,Auto,,,false,,Never,0
+EX-000020,Amendment Recurring Quote Lines without discounts,EX-000002,EX-000004,,0,false,Output_Show_Amendment_QL_w_o_Disc__c,300,Output_Display_Table__c,contains,Recurring,,Auto,Auto,,,false,,Never,0
+EX-000017,Amendment Recurring Totals with Discounts,EX-000002,EX-000017,,0,false,Output_Show_Amendment_Recurring_Totals__c,310,Output_Display_Table__c,equals,Recurring Products,,Always,Auto,,,false,,Never,0
+EX-000003,Amendment Recurring Totals without Discounts,EX-000002,EX-000022,,0,false,Output_Show_Amendment_Totals_w_o_Disc__c,310,Output_Display_Table__c,equals,Recurring Products,,Always,Auto,,,false,,Never,0
+EX-000002,Consulting Services Addendum,EX-000002,EX-000019,FFFFFF,0,false,Output_Show_Consulting_Addendum__c,2000,,,,,Auto,Auto,,,false,,Never,0
+EX-000006,Custom Contract Details,EX-000002,EX-000013,,0,false,Output_Show_Custom_Contract_Details__c,420,,,,,Always,,Auto,,false,,Never,1
+EX-000004,Data Services Addendum,EX-000002,EX-000002,FFFFFF,0,false,Output_Show_Data_Services_Addendum__c,990,,,,,Auto,Auto,,,false,,Never,0
+EX-000016,Dodge Terms and Conditions - Part 1,EX-000002,EX-000011,,0,false,Output_Show_Standard_Terms__c,900,,,,,Auto,Auto,,Before,false,,,0
+EX-000007,Dodge Terms and Conditions - Part 2,EX-000002,EX-000014,,0,false,Output_Show_Standard_Terms__c,950,,,,,Auto,Auto,,,false,,,0
+EX-000010,IMS Terms and Conditions,EX-000002,EX-000015,,0,false,Output_Show_IMS_Terms__c,970,,,,,Auto,Auto,,,false,,,0
+EX-000015,Media Terms and Conditions,EX-000002,EX-000008,,0,false,Output_Show_Media_Terms__c,960,,,,,Auto,Auto,,,false,,,0
+EX-000008,Products and Pricing Header,EX-000002,EX-000007,,0,false,,200,,,,,Auto,Auto,,,false,,,0
+EX-000019,Recurring Quote Lines with Discounts,EX-000002,EX-000004,,0,false,Output_Show_Disc_Recurring_QL_Lines__c,300,Output_Display_Table__c,contains,Recurring,,Auto,Auto,,,false,,Never,0
+EX-000005,Recurring Quote Lines without Discounts,EX-000002,EX-000004,,0,false,Output_Show_NonDisc_Recurring_QL_Lines__c,300,Output_Display_Table__c,contains,Recurring,,Auto,Auto,,,false,,Never,0
+EX-000009,Recurring Totals with Discount,EX-000002,EX-000021,,0,false,Output_Show_Disc_Recurring_Lines__c,310,,,,,Auto,Auto,,,false,,Never,0
+EX-000018,Recurring Totals without Discounts,EX-000002,EX-000003,,0,false,Output_Show_NonDisc_Recurring_Lines__c,310,,,,,Auto,Auto,,,false,,Never,0
+EX-000021,SaaS Addendum,EX-000002,EX-000020,FFFFFF,0,false,Output_Show_SaaS_Addendum__c,2000,,,,,Auto,Auto,,,false,,Never,0
+EX-000014,Signature Block,EX-000002,EX-000010,,0,false,Show_Output_Signatures__c,1100,,,,,Always,Auto,,,false,,,0
+EX-000012,Template Top,EX-000002,EX-000016,,0,false,Output_Show_Non_Amendment_Header__c,100,,,,,Auto,Auto,,,false,,,0
+EX-000013,Terms and Conditions BlueBook,EX-000002,EX-000009,,0,false,Group Line Items,980,,,,,Auto,Auto,,,false,,,0
+,z 1X Amendment Recurring Totals with Discounts,EX-000002,,,0,false,Output_Show_Amendment_1X_Totals__c,310,Output_Display_Table__c,equals,Recurring Products,,Always,Auto,,,false,,Never,0
+,z 1X Amendment Recurring Totals without Discounts,EX-000002,,,0,false,Output_Show_Amendment_1X_w_o_Disc__c,310,Output_Display_Table__c,equals,Recurring Products,,Always,Auto,,,false,,Never,0
+,z 1X Test Totals,EX-000002,,,0,false,Output_Show_Disc_1X_Lines__c,310,,,,,Auto,Auto,,,false,,Never,0
+,z 1X Test Totals without discounts,EX-000002,,,0,false,Output_Show_NonDisc_1X_Lines__c,310,,,,,Auto,Auto,,,false,,Never,0
+,z Amendment Template Top,EX-000002,,,0,false,Output_Show_Amendment_Header__c,5000,,,,,Auto,Auto,,,false,,,0

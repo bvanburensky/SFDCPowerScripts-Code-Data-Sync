@@ -1,0 +1,2 @@
+External_Id__c,SBQQ__Product__r.External_ID__c,Name,SBQQ__Active__c,SBQQ__AdvancedCondition__c,SBQQ__ConditionsMet__c,SBQQ__ConfiguratorEvaluationEvent__c,SBQQ__EvaluationEvent__c,SBQQ__EvaluationOrder__c,SBQQ__LookupObject__c,SBQQ__TargetObject__c
+EX-000002,,Clear Set Invoice Descriptions for All SKUs,true,,All,,Before Calculate,100,,Calculator

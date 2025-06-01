@@ -1,0 +1,26 @@
+External_Id__c,SBQQ__Field__c,SBQQ__FilterFormula__c,SBQQ__FilterType__c,SBQQ__FilterVariable__r.External_Id__c,SBQQ__Index__c,SBQQ__Object__c,SBQQ__Operator__c,SBQQ__Rule__r.External_Id__c,SBQQ__TestedFormula__c,SBQQ__TestedVariable__r.External_Id__c,SBQQ__Value__c
+EX-2023029.012,,,Value,,10,Quote,not equals,EX-20230526.01,,EX-20230530.01,0
+EX-20230505.06,SBQQ__Type__c,,Value,,,Quote,equals,EX-20230505.02,,,Quote
+EX-20230511.03,SBQQ__EffectiveQuantity__c,,Value,,10,Quote Line,greater than,EX-20230511.01,,,0
+EX-20230511.07,Product Code,,Value,,,Quote Line,starts with,EX-20230511.01,,,IMSP
+EX-20230517.01,,,Value,,10,Quote Line,equals,EX-20230517.01,Is_Geo_Required__c,,true
+EX-20230518.02,,,Value,,10,Quote Line,greater than,EX-20230518.01,"blankvalue(SBQQ__Group__r.Group_Discount_Rate__c,0)",,0
+EX-20230518.05,SBQQ__UpgradedSubscription__c,,Value,,30,Quote Line,equals,EX-20230518.01,,,
+EX-20230518.08,,,Value,,20,Quote Line,equals,EX-20230518.01,SBQQ__Group__r.Group_Discount_Rate__c <> SBQQ__Discount__c,,true
+EX-20230526.25,SBQQ__UpgradedSubscription__c,,Value,,50,Quote Line,equals,EX-20230526.03,,,
+EX-20230526.30,SBQQ__UpgradedSubscription__c,,Value,,60,Quote Line,equals,EX-20230526.01,,,
+EX-20230526.40,,,Variable,EX-20230530.01,15,Quote,not equals,EX-20230526.01,Quote_Discount_Rate__c,,
+EX-20230526.55,,,Value,,15,Quote,not equals,EX-20230526.60,Quote_Discount_Rate__c,,
+EX-20230526.57,,,Value,,30,Quote,equals,EX-20230526.60,SBQQ__TargetCustomerAmount__c,,
+EX-20230526.59,,,Value,,30,Quote,not equals,EX-20230526.01,SBQQ__TargetCustomerAmount__c,,0
+EX-20230526.65,,,Value,,30,Quote,equals,EX-20230526.03,SBQQ__TargetCustomerAmount__c,,
+EX-20230526.88,SBQQ__UpgradedSubscription__c,,Value,,50,Quote Line,equals,EX-20230526.60,,,
+EX-20230527.01,,,Value,,10,Quote Line,equals,EX-20230526.60,abs(SBQQ__Number__c) != abs(SBQQ__Quote__r.Bump_Line__c),,true
+EX-20230527.02,,,Value,,20,Quote Line,equals,EX-20230526.03,(abs(SBQQ__Number__c) != abs(SBQQ__Quote__r.Bump_Line__c)),,true
+EX-20230530.60,SBQQ__UpgradedSubscription__c,,Value,,80,Quote Line,equals,EX-20230526.61,,,
+EX-20230531.758,,,Value,,10,Quote,not equals,EX-20230526.03,Quote_Discount_Rate__c,,
+EX-20231555,,,Value,,10,Quote Line,equals,EX-20230526.61,( abs(SBQQ__Number__c) = abs(SBQQ__Quote__r.Bump_Line__c) ),,true
+EX-520230530.0,,,Variable,EX-20230530.02,20,Quote Line,equals,EX-20230526.61,SBQQ__SegmentIndex__c,,
+EX-520230530.05,,,Value,,30,Quote,equals,EX-20230526.61,Bump_Discount_Rate_Lock__c,,false
+EX-520230530.10,,,Value,,60,Quote,equals,EX-20230526.60,Bump_Discount_Rate_Lock__c,,false
+EX-520230530.25,,,Value,,70,Quote,equals,EX-20230526.03,Bump_Discount_Rate_Lock__c,,false

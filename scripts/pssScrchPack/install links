@@ -1,0 +1,14 @@
+
+
+
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04tak0000007N6LAAU
+
+
+ 
+
+mi-lwc-components 20250218>  sf package version create -v LWCPlayHub  -p rotcat -c  -k roxcat  -w 10 --releasenotes-url https://roxcat.com
+Version create.... Create version status: Success
+Successfully created the package version [08cak0000001aflAAA]. 
+Subscriber Package Version Id: 04tak0000007NG1AAM
+Package Installation URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=04tak0000007NG1AAM
+As an alternative, you can use the "sf package:install" command.

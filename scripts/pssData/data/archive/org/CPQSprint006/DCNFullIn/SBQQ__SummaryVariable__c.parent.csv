@@ -1,0 +1,9 @@
+External_Id__c,Name,SBQQ__AggregateField__c,SBQQ__AggregateFunction__c,SBQQ__CompositeOperator__c,SBQQ__ConstraintField__c,SBQQ__FilterField__c,SBQQ__FilterValue__c,SBQQ__TargetObject__c,SBQQ__Operator__c,SBQQ__Scope__c,SBQQ__ValueElement__c
+EX-20230505.01,Count of Geo's,Quantity,Count,,,SBQQ__ProductFamily__c,DCC Geo,Quote Line,equals,Quote,
+EX-20230505.02,Count of 0 GEOs Bundles Requiring GEOS,Quantity,Count,,,Is_GEO_Count_Valid__c,FALSE,Quote Line,equals,Quote,
+EX-20230512.01,Count of Geo's Children,Is_GEO_Count_Valid__c,Min,,,,,Quote Line,equals,Quote,
+EX-20230515.01,Count of Quote Line Errors,Quantity,Count,,,is_Valid_Quote_Line__c,false,Quote Line,equals,Quote,
+EX-20230518.01,Total Initial ARR,Initial_ARR__c,Sum,,,,,Quote Line,equals,Quote,
+EX-20230523.05,Count DCC Seats with 0 Quantity,Quantity,Count,,,Is_Seats_Valid__c,false,Quote Line,equals,Quote,
+EX-20230530.01,Total Discount Rate Per QL,SBQQ__TotalDiscountRate__c,Max,,,Include_in_Discount_Amt_to_Pct_calc__c,true,Quote Line,equals,Quote,
+EX-20230530.02,Max Segment Index,SBQQ__SegmentIndex__c,Max,,,,,Quote Line,,Quote,

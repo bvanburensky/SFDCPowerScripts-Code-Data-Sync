@@ -1,0 +1,9 @@
+﻿External_Id__c,Name,SBQQ__Action__r.External_Id__c,SBQQ__DisplayOrder__c,SBQQ__FilterSourceField__c,SBQQ__FilterSourceObject__c,SBQQ__FilterValue__c,SBQQ__HiddenSourceField__c,SBQQ__HiddenSourceObject__c,SBQQ__Hidden__c,SBQQ__Operator__c,SBQQ__TargetField__c,SBQQ__TargetObject__c
+EX-20230412.05,BB Fullfill,EX-20230412.02,10,,,BlueBook,,,true,equals,Fulfillment_Family__c,Product
+EX-20230412.01,DCC,EX-20230412.01,10,,,Horizon,,,true,equals,Fulfillment_Family__c,Product
+EX-20230412.04,Hide Zones,EX-20230412.01,100,,,DCC County,,,true,not equals,Zone_Type__c,Product
+EX-0000002,Hide Zones,EX-0000003,100,,,DCC County,,,true,not equals,Zone_Type__c,Product
+EX-0000001,Hide Zones,EX-0000003,10,,,County,,,true,not equals,Zone_Type__c,Product
+EX-20230412.02,Hide Zones,EX-20230412.01,100,,,County,,,true,not equals,Zone_Type__c,Product
+EX-0000006,Product Family,EX-0000003,20,,,,,,false,equals,Product Family,Product
+EX-0000009,Product Line,EX-0000003,30,,,,,,false,equals,Product_Line__c,Product

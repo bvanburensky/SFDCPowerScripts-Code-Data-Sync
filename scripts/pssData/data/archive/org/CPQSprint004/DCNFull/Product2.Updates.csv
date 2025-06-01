@@ -1,0 +1,313 @@
+External_ID__c,Name,IsActive,ProductCode,CurrencyIsoCode,Description,Family,Product_Line__c,SBQQ__QuantityEditable__c,SBQQ__QuantityScale__c,Data_Content_Line__c,Do_Not_Fulfill__c,Do_Not_Integrate_to_NS__c,Fulfillment_Family__c,SBQQ__AssetAmendmentBehavior__c,SBQQ__AssetConversion__c,SBQQ__BatchQuantity__c,SBQQ__BillingFrequency__c,SBQQ__BillingType__c,SBQQ__BlockPricingField__c,SBQQ__ChargeType__c,SBQQ__Component__c,SBQQ__PricingMethod__c
+EX-0020001,"Waco, TX - 1x",true,47380,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020002,"Casper, WY - 1x",true,16220,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020003,"Valdosta, GA - 1x",true,46660,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020004,"Davenport-Moline-Rock Island, IA-IL - 1x",true,19340,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020005,"Lewiston, ID-WA - 1x",true,30300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020006,"Honolulu, HI - 1x",true,26180,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020007,"Hickory-Lenoir-Morganton, NC - 1x",true,25860,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020008,"Chico, CA - 1x",true,17020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020009,"Hartford-West Hartford-East Hartford, CT - 1x",true,25540,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020010,"Cape Coral-Fort Myers, FL - 1x",true,15980,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020011,"Vero Beach, FL - 1x",true,46940,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020012,"San Francisco-Oakland-Fremont, CA - 1x",true,41860,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020016,"Johnson City, TN - 1x",true,27740,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020022,"Jacksonville, NC - 1x",true,27340,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020025,"St. Cloud, MN - 1x",true,41060,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020026,"Punta Gorda, FL - 1x",true,39460,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020028,"Dover, DE - 1x",true,20100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020029,"Iowa City, IA - 1x",true,26980,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020032,"Wilmington, NC - 1x",true,48900,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020033,"New Haven-Milford, CT - 1x",true,35300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020034,"Provo-Orem, UT - 1x",true,39340,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020035,"Ogden-Clearfield, UT - 1x",true,36260,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020036,"Kansas City, MO-KS - 1x",true,28140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020037,"Naples-Marco Island, FL - 1x",true,34940,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020038,"Laredo, TX - 1x",true,29700,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020039,"Modesto, CA - 1x",true,33700,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020046,"Chicago-Naperville-Joliet, IL-IN-WI - 1x",true,16980,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020047,"Springfield, MA - 1x",true,44140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020052,"Virginia Beach-Norfolk-Newport News, VA-NC - 1x",true,47260,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020053,"Longview, WA - 1x",true,31020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020054,"Coeur d'Alene, ID - 1x",true,17660,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020055,"Columbus, IN - 1x",true,18020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020056,"Topeka, KS - 1x",true,45820,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020057,"Amarillo, TX - 1x",true,11100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020059,"Goldsboro, NC - 1x",true,24140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020060,"Binghamton, NY - 1x",true,13780,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020061,"Kokomo, IN - 1x",true,29020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020062,"Olympia, WA - 1x",true,36500,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020064,"Las Vegas-Paradise, NV - 1x",true,29820,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020071,"Raleigh-Cary, NC - 1x",true,39580,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020074,"Seattle-Tacoma-Bellevue, WA - 1x",true,42660,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020075,"Anniston-Oxford, AL - 1x",true,11500,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020076,"Charleston-North Charleston, SC - 1x",true,16700,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020078,"Joplin, MO - 1x",true,27900,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020079,"Mount Vernon-Anacortes, WA - 1x",true,34580,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020080,"Milwaukee-Waukesha-West Allis, WI - 1x",true,33340,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020086,"Bloomington, IN - 1x",true,14020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020087,"Columbia, SC - 1x",true,17900,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020088,"Cleveland-Elyria-Mentor, OH - 1x",true,17460,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020089,"Bremerton-Silverdale, WA - 1x",true,14740,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020090,"Cumberland, MD-WV - 1x",true,19060,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020091,"Stockton, CA - 1x",true,44700,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020092,"Grand Junction, CO - 1x",true,24300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020093,"Little Rock-North Little Rock, AR - 1x",true,30780,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020094,"Austin-Round Rock, TX - 1x",true,12420,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020095,"Texarkana, TX-Texarkana, AR - 1x",true,45500,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020096,"Tucson, AZ - 1x",true,46060,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020097,"Los Angeles-Long Beach-Santa Ana, CA - 1x",true,31100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020098,"Blacksburg-Christiansburg-Radford, VA - 1x",true,13980,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020099,"Trenton-Ewing, NJ - 1x",true,45940,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020100,"Beaumont-Port Arthur, TX - 1x",true,13140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020101,"Fayetteville, NC - 1x",true,22180,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020102,"Fort Smith, AR-OK - 1x",true,22900,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020103,"Savannah, GA - 1x",true,42340,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020104,"San Angelo, TX - 1x",true,41660,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020105,"Battle Creek, MI - 1x",true,12980,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020106,"Auburn-Opelika, AL - 1x",true,12220,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020107,"Bridgeport-Stamford-Norwalk, CT - 1x",true,14860,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020108,"Orlando, FL - 1x",true,36740,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020109,"Pocatello, ID - 1x",true,38540,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020110,"Port St. Lucie-Fort Pierce, FL - 1x",true,38940,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020111,"Pittsburgh, PA - 1x",true,38300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020112,"Providence-New Bedford-Fall River, RI-MA - 1x",true,39300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020113,"Billings, MT - 1x",true,13740,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020114,"Winchester, VA-WV - 1x",true,49020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020115,"Oklahoma City, OK - 1x",true,36420,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020116,"Prescott, AZ - 1x",true,39140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020117,"Niles-Benton Harbor, MI - 1x",true,35660,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020119,"Lansing-East Lansing, MI - 1x",true,29620,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020120,"Portland-Vancouver-Beaverton, OR-WA - 1x",true,38900,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020121,"Holland-Grand Haven, MI - 1x",true,26100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020122,"Harrisburg-Carlisle, PA - 1x",true,25420,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020124,"Memphis, TN-MS-AR - 1x",true,32820,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020125,"Buffalo-Niagara Falls, NY - 1x",true,15380,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020126,"Burlington, NC - 1x",true,15500,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020127,"Minneapolis-St. Paul-Bloomington, MN-WI - 1x",true,33460,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020128,"Miami-Fort Lauderdale-Miami Beach, FL - 1x",true,33100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020129,"Great Falls, MT - 1x",true,24500,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020131,"Hagerstown-Martinsburg, MD-WV - 1x",true,25180,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020133,"Champaign-Urbana, IL - 1x",true,16580,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020134,"San Jose-Sunnyvale-Santa Clara, CA - 1x",true,41940,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020137,"Hanford-Corcoran, CA - 1x",true,25260,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020138,"Bismarck, ND - 1x",true,13900,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020139,"Charleston, WV - 1x",true,16620,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020140,"Augusta-Richmond County, GA-SC - 1x",true,12260,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020141,"Bellingham, WA - 1x",true,13380,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020142,"Bend, OR - 1x",true,13460,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020143,"Cleveland, TN - 1x",true,17420,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020144,"Saginaw-Saginaw Township North, MI - 1x",true,40980,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020145,"Tampa-St. Petersburg-Clearwater, FL - 1x",true,45300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020146,"St. Joseph, MO-KS - 1x",true,41140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020147,"Ocala, FL - 1x",true,36100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020148,"Janesville, WI - 1x",true,27500,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020149,"Wheeling, WV-OH - 1x",true,48540,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020150,"Decatur, AL - 1x",true,19460,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020151,"Nashville-Davidson--Murfreesboro, TN - 1x",true,34980,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020152,"Gulfport-Biloxi, MS - 1x",true,25060,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020153,"Monroe, LA - 1x",true,33740,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020154,"Vallejo-Fairfield, CA - 1x",true,46700,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020155,"Hattiesburg, MS - 1x",true,25620,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020156,"Scranton--Wilkes-Barre, PA - 1x",true,42540,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020160,"Huntsville, AL - 1x",true,26620,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020161,"Flagstaff, AZ - 1x",true,22380,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020162,"Fort Collins-Loveland, CO - 1x",true,22660,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020164,"Portland-South Portland-Biddeford, ME - 1x",true,38860,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020165,"Poughkeepsie-Newburgh-Middletown, NY - 1x",true,39100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020166,"Fargo, ND-MN - 1x",true,22020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020167,"Dothan, AL - 1x",true,20020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020168,"Santa Cruz-Watsonville, CA - 1x",true,42100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020170,"Cedar Rapids, IA - 1x",true,16300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020172,"Elizabethtown, KY - 1x",true,21060,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020173,"Reno-Sparks, NV - 1x",true,39900,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020176,"Sacramento--Arden-Arcade--Roseville, CA - 1x",true,40900,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020177,"Rome, GA - 1x",true,40660,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020183,"Kingsport-Bristol-Bristol, TN-VA - 1x",true,28700,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020185,"Columbus, OH - 1x",true,18140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020186,"Ames, IA - 1x",true,11180,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020187,"Kalamazoo-Portage, MI - 1x",true,28020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020188,"Abilene, TX - 1x",true,10180,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020189,"Gainesville, GA - 1x",true,23580,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020190,"Indianapolis, IN - 1x",true,26900,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020191,"Jefferson City, MO - 1x",true,27620,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020192,"Pascagoula, MS - 1x",true,37700,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020193,"Salinas, CA - 1x",true,41500,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020194,"Elmira, NY - 1x",true,21300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020195,"Sarasota-Bradenton-Venice, FL - 1x",true,42260,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020196,"Logan, UT-ID - 1x",true,30860,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020197,"Wausau, WI - 1x",true,48140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020198,"Yuba City, CA - 1x",true,49700,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020200,"Duluth, MN-WI - 1x",true,20260,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020207,"Riverside-San Bernardino-Ontario, CA - 1x",true,40140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020209,"Ann Arbor, MI - 1x",true,11460,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020210,"Albany-Schenectady-Troy, NY - 1x",true,10580,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020212,"Lima, OH - 1x",true,30620,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020216,"Cincinnati-Middletown, OH-KY-IN - 1x",true,17140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020217,"Lake Charles, LA - 1x",true,29340,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020218,"Baton Rouge, LA - 1x",true,12940,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020219,"Barnstable Town, MA - 1x",true,12700,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020220,"Jacksonville, FL - 1x",true,27260,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020221,"Anderson, IN - 1x",true,11300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020224,"Chattanooga, TN-GA - 1x",true,16860,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020227,"Vineland-Millville-Bridgeton, NJ - 1x",true,47220,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020231,"Danville, IL - 1x",true,19180,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020233,"Akron, OH - 1x",true,10420,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020238,"Wenatchee, WA - 1x",true,48300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020239,"Decatur, IL - 1x",true,19500,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020240,"Odessa, TX - 1x",true,36220,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020241,"Myrtle Beach-Conway-North Myrtle Beach, SC - 1x",true,34820,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020242,"Kankakee-Bradley, IL - 1x",true,28100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020243,"Visalia-Porterville, CA - 1x",true,47300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020244,"Muncie, IN - 1x",true,34620,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020245,"Boise City-Nampa, ID - 1x",true,14260,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020246,"Burlington-South Burlington, VT - 1x",true,15540,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020247,"Flint, MI - 1x",true,22420,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020248,"Fort Wayne, IN - 1x",true,23060,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020249,"Bay City, MI - 1x",true,13020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020250,"Pensacola-Ferry Pass-Brent, FL - 1x",true,37860,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020251,"South Bend-Mishawaka, IN-MI - 1x",true,43780,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020252,"Winston-Salem, NC - 1x",true,49180,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020253,"Longview, TX - 1x",true,30980,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020254,"Louisville, KY-IN - 1x",true,31140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020255,"Sioux City, IA-NE-SD - 1x",true,43580,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020256,"York-Hanover, PA - 1x",true,49620,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020257,"Reading, PA - 1x",true,39740,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020265,"Gainesville, FL - 1x",true,23540,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020270,"Albany, GA - 1x",true,10500,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020271,"Killeen-Temple-Fort Hood, TX - 1x",true,28660,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020272,"Gadsden, AL - 1x",true,23460,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020273,"Jonesboro, AR - 1x",true,27860,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020274,"Bakersfield, CA - 1x",true,12540,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020275,"Youngstown-Warren-Boardman, OH-PA - 1x",true,49660,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020276,"Atlantic City, NJ - 1x",true,12100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020277,"New Orleans-Metairie-Kenner, LA - 1x",true,35380,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020278,"Rockford, IL - 1x",true,40420,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020280,"Syracuse, NY - 1x",true,45060,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020281,"Glens Falls, NY - 1x",true,24020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020282,"Colorado Springs, CO - 1x",true,17820,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020283,"Las Cruces, NM - 1x",true,29740,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020284,"Madison, WI - 1x",true,31540,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020285,"Waterloo-Cedar Falls, IA - 1x",true,47940,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020286,"Harrisonburg, VA - 1x",true,25500,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020288,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD - 1x",true,37980,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020289,"Brownsville-Harlingen, TX - 1x",true,15180,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020290,"Washington-Arlington-Alexandria, DC-VA-MD-WV - 1x",true,47900,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020291,"Ithaca, NY - 1x",true,27060,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020293,"Houston-Baytown-Sugar Land, TX - 1x",true,26420,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020295,"St. Louis, MO-IL - 1x",true,41180,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020297,"Pittsfield, MA - 1x",true,38340,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020300,"San Antonio, TX - 1x",true,41700,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020301,"New York-Northern New Jersey-Long Island, NY-NJ-PA - 1x",true,35620,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020302,"Fayetteville-Springdale-Rogers, AR-MO - 1x",true,22220,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020303,"Fort Walton Beach-Crestview-Destin, FL - 1x",true,23020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020306,"Morgantown, WV - 1x",true,34060,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020307,"Farmington, NM - 1x",true,22140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020309,"Williamsport, PA - 1x",true,48700,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020310,"Bowling Green, KY - 1x",true,14540,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020311,"Birmingham-Hoover, AL - 1x",true,13820,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020312,"Columbia, MO - 1x",true,17860,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020313,"Green Bay, WI - 1x",true,24580,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020314,"Lewiston-Auburn, ME - 1x",true,30340,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020315,"Palm Bay-Melbourne-Titusville, FL - 1x",true,37340,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020316,"Evansville, IN-KY - 1x",true,21780,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020321,"Eugene-Springfield, OR - 1x",true,21660,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020323,"Wichita Falls, TX - 1x",true,48660,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020324,"Salt Lake City, UT - 1x",true,41620,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020328,"Rapid City, SD - 1x",true,39660,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020329,"Springfield, OH - 1x",true,44220,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020331,"Hinesville-Fort Stewart, GA - 1x",true,25980,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020333,"Houma-Bayou Cane-Thibodaux, LA - 1x",true,26380,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020335,"Johnstown, PA - 1x",true,27780,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020336,"Charlotte-Gastonia-Concord, NC-SC - 1x",true,16740,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020338,"Medford, OR - 1x",true,32780,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020339,"Springfield, IL - 1x",true,44100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020342,"Huntington-Ashland, WV-KY-OH - 1x",true,26580,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020343,"Rochester, NY - 1x",true,40380,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020344,"Columbus, GA-AL - 1x",true,17980,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020345,"Clarksville, TN-KY - 1x",true,17300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020348,"Idaho Falls, ID - 1x",true,26820,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020350,"Cheyenne, WY - 1x",true,16940,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020353,"Deltona-Daytona Beach-Ormond Beach, FL - 1x",true,19660,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020357,"Appleton, WI - 1x",true,11540,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020359,"Utica-Rome, NY - 1x",true,46540,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020360,"Athens-Clarke County, GA - 1x",true,12020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020361,"Lexington-Fayette, KY - 1x",true,30460,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020362,"Muskegon-Norton Shores, MI - 1x",true,34740,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020363,"Santa Barbara-Santa Maria-Goleta, CA - 1x",true,42060,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020367,"Hot Springs, AR - 1x",true,26300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020372,"Phoenix-Mesa-Scottsdale, AZ - 1x",true,38060,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020373,"Warner Robins, GA - 1x",true,47580,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020378,"Anchorage, AK - 1x",true,11260,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020379,"Asheville, NC - 1x",true,11700,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020381,"Alexandria, LA - 1x",true,10780,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020382,"Baltimore-Towson, MD - 1x",true,12580,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020383,"Shreveport-Bossier City, LA - 1x",true,43340,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020385,"Mansfield, OH - 1x",true,31900,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020387,"Allentown-Bethlehem-Easton, PA-NJ - 1x",true,10900,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020388,"Springfield, MO - 1x",true,44180,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020389,"Rochester, MN - 1x",true,40340,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020390,"Lakeland, FL - 1x",true,29460,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020391,"Rocky Mount, NC - 1x",true,40580,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020392,"La Crosse, WI-MN - 1x",true,29100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020393,"Bloomington-Normal, IL - 1x",true,14060,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020394,"Salisbury, MD - 1x",true,41540,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020395,"Florence-Muscle Shoals, AL - 1x",true,22520,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020396,"San Luis Obispo-Paso Robles, CA - 1x",true,42020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020397,"San Diego-Carlsbad-San Marcos, CA - 1x",true,41740,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020398,"Terre Haute, IN - 1x",true,45460,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020399,"Altoona, PA - 1x",true,11020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020400,"Albuquerque, NM - 1x",true,10740,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020402,"Sioux Falls, SD - 1x",true,43620,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020403,"Oshkosh-Neenah, WI - 1x",true,36780,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020405,"Corpus Christi, TX - 1x",true,18580,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020406,"Kennewick-Richland-Pasco, WA - 1x",true,28420,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020407,"Bangor, ME - 1x",true,12620,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020408,"Greenville, NC - 1x",true,24780,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020409,"Morristown, TN - 1x",true,34100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020410,"Salem, OR - 1x",true,41420,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020411,"El Centro, CA - 1x",true,20940,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020412,"Greeley, CO - 1x",true,24540,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020413,"Canton-Massillon, OH - 1x",true,15940,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020414,"Brunswick, GA - 1x",true,15260,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020415,"Santa Rosa-Petaluma, CA - 1x",true,42220,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020416,"Parkersburg-Marietta, WV-OH - 1x",true,37620,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020417,"Lafayette, IN - 1x",true,29140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020418,"Dallas-Fort Worth-Arlington, TX - 1x",true,19100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020419,"Detroit-Warren-Livonia, MI - 1x",true,19820,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020422,"Lawrence, KS - 1x",true,29940,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020424,"Danville, VA - 1x",true,19260,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020425,"Sherman-Denison, TX - 1x",true,43300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020426,"Michigan City-La Porte, IN - 1x",true,33140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020427,"Pine Bluff, AR - 1x",true,38220,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020429,"Atlanta-Sandy Springs-Marietta, GA - 1x",true,12060,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020430,"St. George, UT - 1x",true,41100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020431,"State College, PA - 1x",true,44300,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020435,"Lawton, OK - 1x",true,30020,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020436,"Boston-Cambridge-Quincy, MA-NH - 1x",true,14460,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020437,"Ocean City, NJ - 1x",true,36410,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020438,"Knoxville, TN - 1x",true,28940,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020439,"Norwich-New London, CT - 1x",true,35980,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020440,"Toledo, OH - 1x",true,45780,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020441,"Denver-Aurora, CO - 1x",true,19740,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020442,"Fairbanks, AK - 1x",true,21820,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020443,"Elkhart-Goshen, IN - 1x",true,21140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020444,"Grand Forks, ND-MN - 1x",true,24220,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020445,"Dalton, GA - 1x",true,19140,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020446,"Weirton-Steubenville, WV-OH - 1x",true,48260,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020447,"Dayton, OH - 1x",true,19380,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020448,"Lynchburg, VA - 1x",true,31340,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020449,"Manchester-Nashua, NH - 1x",true,31700,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020450,"Redding, CA - 1x",true,39820,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020451,"McAllen-Edinburg-Pharr, TX - 1x",true,32580,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020454,"Grand Rapids-Wyoming, MI - 1x",true,24340,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020456,"Greensboro-High Point, NC - 1x",true,24660,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020459,"Kingston, NY - 1x",true,28740,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020460,"Tallahassee, FL - 1x",true,45220,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020461,"Charlottesville, VA - 1x",true,16820,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020462,"Corvallis, OR - 1x",true,18700,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020464,"Panama City-Lynn Haven, FL - 1x",true,37460,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020466,"Owensboro, KY - 1x",true,36980,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020470,"Oxnard-Thousand Oaks-Ventura, CA - 1x",true,37100,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020471,"Omaha-Council Bluffs, NE-IA - 1x",true,36540,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List
+EX-0020474,"College Station-Bryan, TX - 1x",true,17780,USD,,DCC Geo,,true,,true,false,true,Horizon,Default,One per quote line,,,,Quantity,,false,List

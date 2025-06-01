@@ -1,0 +1,4 @@
+External_Id__c,SBQQ__Field__c,SBQQ__FilterFormula__c,SBQQ__FilterType__c,SBQQ__FilterVariable__r.External_Id__c,SBQQ__Index__c,SBQQ__Object__c,SBQQ__Operator__c,SBQQ__Rule__r.External_Id__c,SBQQ__TestedFormula__c,SBQQ__TestedVariable__r.External_Id__c,SBQQ__Value__c
+EX-20230328.10,SBQQ__UpgradedSubscription__c,,Value,,30,Quote Line,equals,EX-20230320.2,,,
+EX-20230328.20,,,Value,,10,Quote Line,greater than,EX-20230320.2,"blankvalue(SBQQ__Group__r.Group_Discount_Rate__c,0)",,0
+EX-20230328.21,,,Value,,20,Quote Line,equals,EX-20230320.2,SBQQ__Group__r.Group_Discount_Rate__c <> SBQQ__Discount__c,,true

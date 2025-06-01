@@ -1,0 +1,23 @@
+{
+  "orgName": "roxTest02",
+  "edition": "Developer",
+  "features": [
+    "CoreCpq",
+    "EnableSetPasswordInApi",
+    "Communities",
+    "CustomerCommunityPlus",
+    "ProductCatalogManagementPCAddOn",
+    "OrderSaveLogicEnabled",
+    "OrderSaveBehaviorBoth",
+    "EnableSetPasswordInApi",
+    "PlatformCache"  
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}

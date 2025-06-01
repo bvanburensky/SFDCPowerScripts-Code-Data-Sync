@@ -1,0 +1,90 @@
+{
+ "selectedIcons": "action:check,action:edit,action:flow,doctype:gpres,doctype:gsheet,custom:custom7,custom:custom9,custom:custom11,custom:custom24,custom:custom22,custom:custom44,custom:custom46,custom:custom59,custom:custom60,custom:custom91,custom:custom93,standard:adverse_event,standard:agent_session,standard:aggregation_policy,standard:actions_and_buttons,standard:account,standard:case_email,utility:add_above,utility:add,utility:advanced_function,utility:anchor,utility:answer,utility:apex_plugin,utility:date_input,utility:arrow_bottom,utility:arrow_left,utility:arrow_right,utility:arrow_top,utility:arrowdown,utility:arrowup,utility:bookmark_stroke,utility:bookmark,utility:border_all,utility:billing,utility:bug,utility:call,utility:campaign,utility:cart,utility:chart,utility:close,utility:co_ins_infusion,utility:connected_apps,utility:cut,utility:constant,utility:data_model,utility:display_text,utility:frozen,",
+ "columnsModel": {
+  "roxCfgType": "columnsModel",
+  "columns": [
+   {
+    "fieldName": "accountid",
+    "hideDefaultActions": true,
+    "relatedFieldName": "account.name",
+    "schType": "reference",
+    "secEditAllowed": true,
+    "secViewAllowed": true,
+    "type": "url",
+    "typeAttributes": {
+     "label": {
+      "fieldName": "account_label"
+     },
+     "linkId": "accountid",
+     "name": "view",
+     "target": "_parent",
+     "title": "view",
+     "tooltip": {
+      "fieldName": "account_label"
+     },
+     "variant": "base"
+    },
+    "FoundinFlds": true
+   },
+   {
+    "fieldName": "isclosed",
+    "schType": "boolean",
+    "secEditAllowed": false,
+    "secViewAllowed": true,
+    "type": "boolean",
+    "FoundinFlds": true
+   },
+   {
+    "editable": true,
+    "fieldName": "reason",
+    "schType": "picklist",
+    "secEditAllowed": true,
+    "secViewAllowed": true,
+    "type": "text",
+    "FoundinFlds": true,
+    "editablecfg": true
+   },
+   {
+    "fieldName": "casenumber",
+    "schType": "string",
+    "secEditAllowed": false,
+    "secViewAllowed": true,
+    "type": "text",
+    "FoundinFlds": true
+   },
+   {
+    "fieldName": "origin",
+    "schType": "picklist",
+    "secEditAllowed": true,
+    "secViewAllowed": true,
+    "type": "text",
+    "FoundinFlds": true
+   },
+   {
+    "fieldName": "type",
+    "schType": "picklist",
+    "secEditAllowed": true,
+    "secViewAllowed": true,
+    "type": "text",
+    "FoundinFlds": true
+   },
+   {
+    "fieldName": "contactemail",
+    "fixedWidth": 100,
+    "schType": "email",
+    "secEditAllowed": false,
+    "secViewAllowed": true,
+    "type": "email",
+    "FoundinFlds": true
+   }
+  ]
+ },
+ "configModel": {
+  "showRowNumberColumn": true,
+  "headerFormat": "Standard",
+  "refreshOnSiblingRefresh": true,
+  "title": "caseds"
+ },
+ "roxCfgType": "string",
+ "rox": "roxCfg"
+}

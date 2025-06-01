@@ -1,0 +1,26 @@
+External_Id__c,SBQQ__Field__c,SBQQ__FilterFormula__c,SBQQ__FilterType__c,SBQQ__FilterVariable__r.External_Id__c,SBQQ__Index__c,SBQQ__Object__c,SBQQ__Operator__c,SBQQ__Rule__r.External_Id__c,SBQQ__TestedFormula__c,SBQQ__TestedVariable__r.External_Id__c,SBQQ__Value__c
+,,,Value,,10,Quote Line,equals,EX-20230327.01,!isblank( SBQQ__Subscription__c),,true
+,,,Value,,10,Quote Line,equals,EX-20230327.01,!isblank( SBQQ__Subscription__c),,true
+,,,Value,,10,Quote Line,equals,EX-20230327.01,!isblank( SBQQ__Subscription__c),,true
+,,,Value,,10,Quote Line,equals,EX-20230327.01,!isblank( SBQQ__Subscription__c),,true
+,,,Value,,10,Quote Line,equals,EX-20230327.01,!isblank( SBQQ__Subscription__c),,true
+,,,Value,,10,Quote Line,equals,EX-20230327.01,!isblank( SBQQ__Subscription__c),,true
+,,,Value,,10,Quote Line,equals,EX-20230327.01,!isblank( SBQQ__Subscription__c),,true
+,,,Value,,10,Quote Line,equals,EX-20230327.01,!isblank( SBQQ__Subscription__c),,true
+,,,Value,,10,Quote Line,equals,EX-20230327.01,!isblank( SBQQ__Subscription__c),,true
+,,,Value,,10,Quote Line,equals,EX-20230327.01,!isblank( SBQQ__Subscription__c),,true
+,,,Value,,10,Quote Line,equals,EX-20230327.01,!isblank( SBQQ__Subscription__c),,true
+,,,Value,,10,Quote Line,equals,EX-20230327.01,!isblank( SBQQ__Subscription__c),,true
+EX-20230328.01,,,Value,,10,Quote Line,equals,EX-20230328.01,SBQQ__Group__r.Zero_Quantity__c,,true
+EX-20230328.02,,,Value,,10,Quote Line,equals,EX-20230328.02,SBQQ__Group__r.Refresh_from_Option_PriceBook__c,,true
+EX-20230328.05,SBQQ__UpgradedSubscription__c,,Value,,20,Quote Line,equals,EX-20230328.02,,,
+EX-20230328.10,SBQQ__UpgradedSubscription__c,,Value,,30,Quote Line,equals,EX-20230320.2,,,
+EX-20230328.11,,,Value,,,Quote,equals,EX-20230320.4,Clear_Renewal_Uplift__c,,true
+EX-20230328.20,,,Value,,10,Quote Line,greater than,EX-20230320.2,"blankvalue(SBQQ__Group__r.Group_Discount_Rate__c,0)",,0
+EX-20230328.21,,,Value,,20,Quote Line,equals,EX-20230320.2,SBQQ__Group__r.Group_Discount_Rate__c <> SBQQ__Discount__c,,true
+EX-20230401.01,,,Value,,10,Quote,equals,EX-20230320.30,SBQQ__Opportunity2__r.Type,,Cancellation
+EX-20230401.02,,,Value,,20,Quote Line,greater than,EX-20230320.30,SBQQ__Quantity__c,,0
+EX-20230401.10,,,Value,,10,Quote Line,equals,EX-20230320.3,TBB_Region__c,,
+EX-20230401.20,,,Value,,10,Quote Line,not equals,EX-20230302.0,TBB_Region__c,,
+EX-20230401.21,,,Value,,20,Quote Line,equals,EX-20230302.0,Geo__c,,
+EX-20230401.30,SBQQ__Type__c,,Value,,10,Quote,equals,EX-20230321.1,,,Amendment
