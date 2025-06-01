@@ -28,11 +28,14 @@ more details:
 
 ### pssData
   -data
-    -org
+  
+   -org
    ### project-sprint 
-   -sourceAlias 
-      -sObject1.csv
-      -sobject2.csv
+   
+  -sourceAlias 
+  
+   -sObject1.csv
+    -sobject2.csv
           ...
     -targetAlias 
       -sObject1.csv
