@@ -10,7 +10,7 @@ $packageHash = @{}
     id,name,Fulfillment_family__c
  ";
      importOrder = "1";
-     where       = " where Fulfillment_family__c = 'Horizon'  "  +
+     where       = " where Fulfillment_family__c = 'Sunset'  "  +
                    "   ";
      externalId  = "Id";
      orderBy     = "order by  Fulfillment_family__c,Family    ";

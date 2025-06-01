@@ -26,7 +26,7 @@ $packageHash.add("SBQQ__TemplateContent__c",
     SBQQ__DisplayOrder__c 
   ";
         importOrder = "3"
-         where       = " where External_id__c != null  and SBQQ__Template__c != 'a6EDI000000Go462AC'  ";
+         where       = " where External_id__c != null  and SBQQ__Template__c != 'a6EXRX000000Go462AC'  ";
         orderBy     = "order by Name  ";  
      ignore      = $true
     } )
@@ -59,7 +59,7 @@ $packageHash.add("SBQQ__TemplateContent__c",
     SBQQ__SummaryDisplay__c,
     SBQQ__TopMargin__c";
         importOrder = "3"
-         where       = " where  external_id__c != 'EX-000023' and SBQQ__Template__c != 'a6EDI000000Go462AC'  ";
+         where       = " where  external_id__c != 'EX-000023' and SBQQ__Template__c != 'a6EXRX000000Go462AC'  ";
         orderBy     = "order by Name  ";  
    ignore      = $true
     } )
@@ -98,9 +98,9 @@ $packageHash.add("SBQQ__LineColumn__c.new",
     SBQQ__Width__c,
     SBQQ__WidthDiscardedWhenHidden__c    ";
     orderBy     = "order by External_id__c,SBQQ__Section__r.External_id__c  ";  
-    where       = "  where    SBQQ__Template__c != 'a6EDI000000Go462AC'    ";
+    where       = "  where    SBQQ__Template__c != 'a6EXRX000000Go462AC'    ";
    
-    where1       = "  where SBQQ__Section__r.External_id__c != 'EX-000023' and  SBQQ__Template__c != 'a6EDI000000Go462AC'   ";
+    where1       = "  where SBQQ__Section__r.External_id__c != 'EX-000023' and  SBQQ__Template__c != 'a6EXRX000000Go462AC'   ";
   
         importOrder = "4"
      ignore      = $true

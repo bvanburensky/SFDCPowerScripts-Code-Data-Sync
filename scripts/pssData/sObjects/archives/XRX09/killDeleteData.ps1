@@ -9,18 +9,14 @@ becarefull !! backup your data
  #>
  
 $targetOrgAlias = "XRXProdIn"
-#$csvFile = "breadwinner_ns__BW_Credit_Memo__c.del" 
 $csvFile = "breadwinner_ns__BW_Invoice__c.del" 
-# $csvFile = "breadwinner_ns__BW_Payment__c.del" 
-#$csvFile = "breadwinner_ns__BW_Sales_Order__c.del" 
-$csvFile = "breadwinner_ns__BW_Company__c.del" 
-$csvFile = "breadwinner_ns__BW_Line_Item__c.del" 
-#$csvFile = "breadwinner_ns__BW_Payment_Transaction__c.del" 
+$csvFile = "breadwinner_ns__BW_Payment__c.del" 
 $csvFile = "breadwinner_ns__BW_Credit_Memo__c.del" 
-$csvFile = "SBQQ__ConfigurationAttribute__c.del" 
+$csvFile = "breadwinner_ns__BW_Sales_Order__c.del" 
+$csvFile = "Invoice_Total__c.del" 
 
 
-$csvOutputPath = "scripts/pssData/data/org/CPQSprint006/" + $targetOrgAlias + "/"
+$csvOutputPath = "scripts/pssData/data/org/XRX7x/" + $targetOrgAlias + "/"
 $wrkLogs = ".\scripts\wrk\csv\" 
  
 # --- Begin Code run

@@ -5,7 +5,7 @@ function used to delete
 generate your file using dataGetDeploy
 single column with an id field
 pass name of file 
-becarefull !! backup your data
+becarefull !! backup your data bro!
  #>
  
 $targetOrgAlias = "dev"

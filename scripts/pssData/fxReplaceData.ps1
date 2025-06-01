@@ -1,5 +1,6 @@
 
-# function used to retrieve data 
+# function used for text replace in a filee 
+# use to change data to csv header ( auto_id to external_id__c ..)
 
 Param(
 
@@ -21,8 +22,6 @@ Param(
     [AllowEmptyString()]
     $ReplaceTextFrom = "",
     $ReplaceTextTo = "" 
- 
-    
     
 )
  
@@ -102,18 +101,7 @@ while ($cnter -lt 10) {
           #  $csvs = sfdx force:data:soql:query -u $sourceOrgAlias -q $query -r csv  
             $outFile = $csvOutputPath + $x + ".csv"
             write-host "File " $outFile  -ForegroundColor green
-         #   $recs = $jsonObj.result.totalSize
-            
-            #    $outputArray += $x + " Records:"  + $recs
-            #     write-host "Writing $recs records to $outFile " -ForegroundColor yellow
-
-            #         $filecontent -replace 'Refer the link https://shellgeek.com/tag/active-directory-2/','Refer the link Https://ShellGeek.com'        
-          <#
-            $null = 
-             New-Item -Force $StrExpFile -Value (
-              (Get-Content $StrExpFile).Replace($TargetWord, $ReplaceWord) | Out-String
-            )
-#>
+ 
             Start-Sleep -Milliseconds 100
             $csvs  = Get-Content  -Path $outFile  
             $csvs -replace $ReplaceTextFrom, $ReplaceTextTo   |  Set-Content -Path $outFile  -encoding utf8 

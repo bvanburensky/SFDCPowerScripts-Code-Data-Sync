@@ -15,22 +15,22 @@ $sourceOrgAlias = 'dev'
 $sourceOrgAlias = 'sfcpqdev' 
 $sourceOrgAlias = 'fullqa' 
 $sourceOrgAlias = 'production'  
-$sourceOrgAlias = 'DIProd1' 
-$sourceOrgAlias = 'DIUAT0TF' 
-$sourceOrgAlias = 'DIQA' 
+$sourceOrgAlias = 'XRXProd1' 
+$sourceOrgAlias = 'XRXUAT0TF' 
+$sourceOrgAlias = 'XRXQA' 
 
-$sourceOrgAlias = 'DCNFullIn' 
-#$sourceOrgAlias = 'DCNProdIn'   
+$sourceOrgAlias = 'XRXFullIn' 
+#$sourceOrgAlias = 'XRXProdIn'   
 
-#$sourceOrgAlias = 'DInessdevnew' 
+#$sourceOrgAlias = 'XRXnessdevnew' 
 # target connection to your dev or prodction 
  
  
-$targetOrgAlias = 'DIProd' 
-$targetOrgAlias = 'DIUAT' 
-$targetOrgAlias = 'DIDev'   
-$targetOrgAlias = 'DCNFull'  
-#$targetOrgAlias = 'DCNProd'  
+$targetOrgAlias = 'XRXProd' 
+$targetOrgAlias = 'XRXUAT' 
+$targetOrgAlias = 'XRXDev'   
+$targetOrgAlias = 'XRXFull'  
+#$targetOrgAlias = 'XRXProd'  
 
  
 #######  true|False  # perform the retrieve from the source org or use the artifacts that exist   

@@ -136,8 +136,8 @@ $packageHash.add("Product2.Updates",
         Standard_Pricebook_Id__c,
         StockKeepingUnit,
         UOM__c,
-        USD_List_Price_DILA__c,
-        USD_List_Price_DINA__c
+        USD_List_Price_XRXLA__c,
+        USD_List_Price_XRXNA__c
      ";
    } )
 

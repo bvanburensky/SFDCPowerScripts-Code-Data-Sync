@@ -12,22 +12,22 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 # NOTE: This alias is also used as the directory for data retrieve and deploy 
  
  
-$sourceOrgAlias = 'DIProd1' 
-$sourceOrgAlias = 'DIUAT0TF' 
-$sourceOrgAlias = 'DIQA' 
+$sourceOrgAlias = 'XRXProd1' 
+$sourceOrgAlias = 'XRXUAT0TF' 
+$sourceOrgAlias = 'XRXQA' 
 
-$sourceOrgAlias = 'DCNFullIn' 
-#$sourceOrgAlias = 'DCNProdIn'   
-#$sourceOrgAlias = 'DCNProdBk'   
-#$sourceOrgAlias = 'DCNFullBk' 
+$sourceOrgAlias = 'XRXFullIn' 
+#$sourceOrgAlias = 'XRXProdIn'   
+#$sourceOrgAlias = 'XRXProdBk'   
+#$sourceOrgAlias = 'XRXFullBk' 
 # target connection to your dev or prodction 
  
  
-$targetOrgAlias = 'DIProd' 
-$targetOrgAlias = 'DIUAT' 
-$targetOrgAlias = 'DIDev'   
-$targetOrgAlias = 'DCNFull'  
-$targetOrgAlias = 'DCNProd'  
+$targetOrgAlias = 'XRXProd' 
+$targetOrgAlias = 'XRXUAT' 
+$targetOrgAlias = 'XRXDev'   
+$targetOrgAlias = 'XRXFull'  
+$targetOrgAlias = 'XRXProd'  
 
 
  

@@ -1,1 +1,0 @@
-prettier --plugin=prettier-plugin-apex --write "./**/*.{trigger,cls}"

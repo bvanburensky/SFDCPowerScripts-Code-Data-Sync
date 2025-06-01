@@ -1,5 +1,5 @@
 
-<# rr
+<#  
   Build a Package.xml like the wind!!! 
    
   To run in terminal 

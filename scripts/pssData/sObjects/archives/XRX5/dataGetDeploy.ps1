@@ -12,7 +12,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 # NOTE: This alias is also used as the directory for data retrieve and deploy 
  
 $sourceOrgAlias = 'dev' 
-$sourceOrgAlias = 'sfcpqdev' 
+$sourceOrgAlias = 'sfcpqdev'  
 $sourceOrgAlias = 'fullqa' 
 $sourceOrgAlias = 'production'  
 $sourceOrgAlias = 'XRXProd1' 
@@ -20,62 +20,83 @@ $sourceOrgAlias = 'XRXUAT0TF'
 $sourceOrgAlias = 'XRXQA' 
 $sourceOrgAlias = 'XRXFull' 
 $sourceOrgAlias = 'XRXFullIn' 
-#$sourceOrgAlias = 'XRXProdIn' 
+$sourceOrgAlias = 'XRXProdIn'   
 
 #$sourceOrgAlias = 'XRXnessdevnew' 
 # target connection to your dev or prodction 
-  
+ 
  
 $targetOrgAlias = 'XRXProd' 
 $targetOrgAlias = 'XRXUAT' 
-$targetOrgAlias = 'XRXDev'  
+$targetOrgAlias = 'XRXDev'   
 $targetOrgAlias = 'XRXFull'  
-#$targetOrgAlias = 'XRXProd' 
+$targetOrgAlias = 'XRXProd'  
 
  
 #######  true|False  # perform the retrieve from the source org or use the artifacts that exist   
 
-$retrieve = $false  
+$retrieve = $true             
 #######  true|False deploy or verify the artifacts to the target org.  
 #        if retrieve and deploy are false then nothing is going to happen  
-$deploy = $true  
+$deploy = $false 
 # to delete records spcified in a csvfile
  
 # after deploying, reterieve the objects and take a look 
 $reQuerytargetOrgOnDeploy = $true
 # process or not a specific file or sObjectcls
  
-$onlyProcessFile = ""
+$onlyProcessFile = "Orders.ps1"
 $onlyProcessSObject = ""
-$onlyProcessDirectory = "CPQSprint002"
+$onlyProcessDirectory = "XRX5"
 
 ## Inputoutput subdir contain your deployment
-$csvOutOverride = 'CPQSprint002' 
+$csvOutOverride = 'XRX5' 
 
 
 ### Exclude yourself or  endless loop
 $excludeProcessFile = "dataGetDeployX.ps1,dataGetDeploy.ps1," 
-$excludeProcessFile += "asda.ps1" 
+$excludeProcessFile += "asda.ps1"  
 $excludeProcessSObject = ""
 $excludeProcesssDirectory = ""
 
 # for debug. display the reterive query
 
-$retrieveFieldOverride = "'id,External_id__c'"
+$retrieveFieldOverride = "'id,unique_id__c'"
 $retrieveFieldOverride = "'id,name'"
-$retrieveFieldOverride = "'id'"
+$retrieveFieldOverride = "'id,unique_id__c'"
 $retrieveFieldOverride = ""
+# $IDFieldForUpsert = "unique_id__c"
+#IDFieldForUpsert = "'id'"
 
-#$retrieveFieldOverride = "'id,External_id__c'"
 
-$IDFieldForUpsert = "External_id__c"
-$IDFieldForUpsert = "'id'"
-# $IsUpdate
+$replace = $true
+
+$sReplaceFileName = "StateCountryReplace.ps1"
+#$sReplaceFileName = "StateReplace.ps1"
+$sReplaceFileName = "addressReplace.ps1"
+$sReplaceFileName = "xRepAccountReplace.ps1"
+$sReplaceFileName = "xRepTerms.ps1"
+
+
+
+#$rename = $false
+ 
+$excludeProcessFile + "," + $sReplaceFileName
+if ($replace) {
+  
+  $excludeProcessFile + "," + $sReplaceFileName
+  $command = ".\scripts\pssData\sObjects\" + $onlyProcessDirectory + '\' + $sReplaceFileName
+ 
+  $aReplace = @()
+  $aReplace += Invoke-Expression $command
+ 
+}
+
 # for debug. display the reterive query
 $showExcluded = $false
 $showQuery = $true
 #This only applies to reterive 
-$whereOverride ="" ## " 'where External_id__c in (''EX-020120033'')' "
+$whereOverride ="" ## " 'where Unique_ID__c in (''EX-020120033'')' "
 
 #Add to the existing Query 'and field = ''asd '' ' if false then replaces any Where clause
 $whereOverrideAdd = $true
@@ -183,7 +204,20 @@ foreach ($letter in $AlphaBetU) {
     Invoke-Expression $command
     write-host Retrieve Complete -ForegroundColor green
   }
-  
+  if ($replace) {
+ 
+    foreach ($repls in $aReplace) {
+      $repls.from + '-->' + $repls.to
+      $rcmd = " -ReplaceTextFrom  " + $repls.from 
+      $rcmd += " -ReplaceTextTo " + $repls.to
+      $command = $scriptPath + "fxReplaceData.ps1 -sourceOrgAlias $sourceOrgAlias -csvOutputPath $csvOutputPath $commandParm   " 
+      $command += $rcmd
+      write-host running $command  -ForegroundColor yellow
+      Invoke-Expression $command
+    }
+
+  }
+   
   if ($deploy) {
     write-host Data Deploy Starting  -ForegroundColor green 
     $command = ($scriptPath) + "fxDeployData.ps1 -sourceOrgAlias $sourceOrgAlias -targetOrgAlias $targetOrgAlias "+
