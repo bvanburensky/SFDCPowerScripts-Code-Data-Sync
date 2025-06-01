@@ -1,7 +1,5 @@
 
 # pull all SBQQ objects 
-
- 
  
 
 sfdx project retrieve start -m customObject:SBQQ__AttributeSet__c

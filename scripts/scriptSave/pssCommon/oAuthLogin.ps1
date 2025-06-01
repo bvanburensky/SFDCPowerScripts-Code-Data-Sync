@@ -47,9 +47,9 @@ sf org display -o XRXFull
 }
  
 <#
- git config --global user.email bburen@datainnovations.com
+ git config --global user.email roxIt@XRXhacktions.com
 
- git config --global user.name "bburen"
+ git config --global user.name "roxIt"
 
  #>
 
