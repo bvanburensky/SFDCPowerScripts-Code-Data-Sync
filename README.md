@@ -31,8 +31,8 @@ more details:
   -data
   
   -org
-      ##project-sprint
-     -sourceAlias 
+     ## project-sprint
+      -sourceAlias 
       -sObject1.csv
       -sobject2.csv
           ...
@@ -41,7 +41,7 @@ more details:
       -sobject2.csv
           ...
           
-   ##sObjects
+   ## sObjects
     project-sprint ()
       dataGetDeploy.ps1
         sourceOrgAlias(alias)
