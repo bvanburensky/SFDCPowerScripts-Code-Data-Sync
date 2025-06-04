@@ -11,32 +11,23 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 # source connection 
 # NOTE: This alias is also used as the directory for data retrieve and deploy 
   
-$sourceOrgAlias = 'dev' 
-$sourceOrgAlias = 'sfcpqdev' 
-$sourceOrgAlias = 'fullqa' 
-$sourceOrgAlias = 'production'  
-$sourceOrgAlias = 'SunsetProd1' 
-$sourceOrgAlias = 'SunsetUAT0TF' 
-$sourceOrgAlias = 'SunsetQA' 
+$ 
 $sourceOrgAlias = 'XRXFull' 
 $sourceOrgAlias = 'XRXFullIn' 
 $sourceOrgAlias = 'XRXProdBk'   
-$sourceOrgAlias = 'testin'   
+$sourceOrgAlias = 'master'   
 #$sourceOrgAlias = 'bvbtest26In'   
 #$sourceOrgAlias = 'Sunsetnessdevnew' 
 # target connection to your dev or prodction 
  
  
-$targetOrgAlias = 'SunsetProd' 
-$targetOrgAlias = 'SunsetUAT'  
-$targetOrgAlias = 'SunsetDev'   
-$targetOrgAlias = 'XRXFull'  
+ 
 $targetOrgAlias = 'XRXProd' 
 $targetOrgAlias = 'bvbtest26'   
  
 #######  true|False  # perform the retrieve from the source org or use the artifacts that exist   
 
-$retrieve = $false
+$retrieve = $true
 #######  true|False deploy or verify the artifacts to the target org.  
 #        if retrieve and deploy are false then nothing is going to happen  
 $deploy = $true      
