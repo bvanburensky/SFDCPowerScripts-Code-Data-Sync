@@ -44,15 +44,19 @@ more details:
   ### sObjects
    -project-sprint ()
     -dataGetDeploy.ps1
+		
       -sourceOrgAlias(alias)
+			
       -targetOrgAlias(alias) 
+			
      -sObjectFile1.ps1
+		 
      -sObjectFile2.ps1
   
       
       
 
-$onlyProcessDirectory = "CPQConfig"  indicates the subdirectiry hta contains the SOQL files.
+$onlyProcessDirectory = "CPQConfig"  indicates the subdirectiry that contains the SOQL result files.
    
 
 
