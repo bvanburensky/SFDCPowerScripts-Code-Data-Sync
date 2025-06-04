@@ -9,6 +9,8 @@ Having worked on so many CPQ projects, this is a real timesaver and bug killer.
 ### CPQ Scripts build to move all CPQ Objects from one to another in minutes 
 ### Requires external ids on all objects and i have added some tips on how to set it up.
 ### once in place you can stand up test envionments quickly and deploy back to prod intelligently 
+### scripts run standard sfdx data commands to get and upsert data
+### scripts just make it easly repeatable
 
 Scripting sync weres by matching on external id fields setup on each SBQQ__xxx object.
 to start apply the external id manifests to you cpq objects (assuming you have none already),
@@ -24,7 +26,8 @@ $targetOrgAlias = 'bvbtest26'    // your sandbox.
 then run the script dataGetDeploy.ps1 
 
 more details: 
- pssData directory contains the ps1 scripts and data
+ pssData directory contains the ps1 scripts for data sync
+ 
 
 ### pssData
   -data
