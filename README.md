@@ -70,8 +70,70 @@ pssData directory contains the ps1 scripts for data sync
   * -targetOrgAlias(alias)
 * -sObjectFile1.ps1
 * -sObjectFile2.ps1
+=======
+### once in place you can stand up test envionments quickly and deploy back to prod intelligently 
+### scripts run standard sfdx data commands to get and upsert data
+### scripts just make it easly repeatable
 
+<<<<<<< HEAD
 ** the dataGetDeploy.ps1 is run usiing the run scrit in vs code.  The script search its directory for the sObj files witch contain the actual SOQL. generally i copy a project directory into a new directory under the sobjects directory and add or remove objects as needed.
+=======
+Scripting sync weres by matching on external id fields setup on each SBQQ__xxx object.
+to start apply the external id manifests to you cpq objects (assuming you have none already),
+included is a auto number field that can be deployed to you master org to generaterate you ids 
+that can then be used to populate your externalid fields.
+  see attached. 
+ 
+
+Once the external id as established in you master, create an sandbox or scratch org
+in the dataGetDeploy.ps1 set you sfdc alias to the source and target environments
+$sourceOrgAlias = 'master'    
+and 
+$targetOrgAlias = 'bvbtest26'    // your sandbox. 
+then run the script dataGetDeploy.ps1 
+
+more details: 
+ pssData directory contains the ps1 scripts for data sync
+ 
+
+### pssData
+  -data
+  
+   -org
+   ### project-sprint 
+   
+  -sourceAlias 
+  
+   -sObject1.csv
+    -sobject2.csv
+          ...
+    -targetAlias 
+      -sObject1.csv
+      -sobject2.csv
+          ...
+  ### sObjects
+   -project-sprint ()
+    -dataGetDeploy.ps1
+		
+      -sourceOrgAlias(alias)
+			
+      -targetOrgAlias(alias) 
+			
+     -sObjectFile1.ps1
+		 
+     -sObjectFile2.ps1
+  
+
+      
+      
+
+$onlyProcessDirectory = "CPQConfig"  indicates the subdirectiry that contains the SOQL result files.
+   
+
+
+
+ 
+>>>>>>> 55c868d85cf15591e080a910f6afecdb635234d3
 
 **so for cpq you may be updating/creating a  price rule or summuray var in the current sprint so are marked as not ignored and can be pushed to prod or stage.
 
