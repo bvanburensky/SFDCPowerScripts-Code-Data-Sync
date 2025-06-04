@@ -13,11 +13,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
   
 $sourceOrgAlias = 'dev' 
 $sourceOrgAlias = 'sfcpqdev' 
-$sourceOrgAlias = 'fullqa' 
-$sourceOrgAlias = 'production'  
-$sourceOrgAlias = 'SunsetProd1' 
-$sourceOrgAlias = 'SunsetUAT0TF' 
-$sourceOrgAlias = 'SunsetQA' 
+ 
 $sourceOrgAlias = 'XRXFull' 
 $sourceOrgAlias = 'XRXFullIn' 
 $sourceOrgAlias = 'XRXProdBk'   

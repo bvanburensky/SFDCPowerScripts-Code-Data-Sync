@@ -11,7 +11,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 # source connection 
 # NOTE: This alias is also used as the directory for data retrieve and deploy 
   
-$ 
+
 $sourceOrgAlias = 'XRXFull' 
 $sourceOrgAlias = 'XRXFullIn' 
 $sourceOrgAlias = 'XRXProdBk'   
