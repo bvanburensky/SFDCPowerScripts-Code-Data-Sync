@@ -10,16 +10,15 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 # retieve to pull from sandbox and deploy to your or another sandbox or production
 # source connection 
 # NOTE: This alias is also used as the directory for data retrieve and deploy 
-  
 
 $sourceOrgAlias = 'XRXFull' 
 $sourceOrgAlias = 'XRXFullIn' 
 $sourceOrgAlias = 'XRXProdBk'   
 $sourceOrgAlias = 'master'   
-#$sourceOrgAlias = 'bvbtest26In'   
+$sourceOrgAlias = 'bvbtest26In'   
 #$sourceOrgAlias = 'Sunsetnessdevnew' 
 # target connection to your dev or prodction 
- 
+  
  
 $targetOrgAlias = 'XRXProd' 
 $targetOrgAlias = 'bvbtest26'   
@@ -29,24 +28,20 @@ $targetOrgAlias = 'bvbtest26'
 $retrieve = $true
 #######  true|False deploy or verify the artifacts to the target org.  
 #        if retrieve and deploy are false then nothing is going to happen  
+
 $deploy = $true      
 # to delete records spcified in a csvfile
  
 # after deploying, reterieve the objects and take a look 
 $reQuerytargetOrgOnDeploy = $true
 # process or not a specific file or sObjectcls
- 
+
 $onlyProcessFile = ""
 $onlyProcessSObject = ""
-$onlyProcessDirectory = "CPQConfig"
+$onlyProcessDirectory = "randomExamples"
 
-## Inputoutput subdir contain your deployment
-$csvOutOverride = 'CPQConfig' 
-
-$exportTreePath = 'revBilling' 
-[bool] $exportTree = $false
-
-$replace = $false
+## Input output subdir contain your deployment and reterives
+$csvOutOverride = 'randomExamples' 
 
 ### Exclude yourself or  endless loop
 $excludeProcessFile = "dataGetDeployX.ps1,dataGetDeploy.ps1," 
@@ -54,27 +49,22 @@ $excludeProcessFile += "asda.ps1"
 $excludeProcessSObject = ""
 $excludeProcesssDirectory = ""
 
-# for debug. display the query
+$replace = $true
 
-$retrieveFieldOverride = "'id,external_id__c'"
+ 
 $retrieveFieldOverride = "'id,name'"
 $retrieveFieldOverride = "'id,external_id__c'"
-$retrieveFieldOverride = "'id,external_id__c'"
 $retrieveFieldOverride = "'id,external_id_auto__c'"
-$retrieveFieldOverride = ""
+#$retrieveFieldOverride = ""
 # $IDFieldForUpsert = "external_id__c"
 $IDFieldForUpsert = "'external_id__c'"
-#$IDFieldForUpsert = "'id'"
+$IDFieldForUpsert = "'id'"
 
-
-$sReplaceFileName = "StateCountryReplace.ps1"
-#$sReplaceFileName = "StateReplace.ps1"
-$sReplaceFileName = "addressReplace.ps1"
-$sReplaceFileName = "xRepAccountReplace.ps1"
-$sReplaceFileName = "xRepTerms.ps1"
+$orderbyDefault = "order by external_id__c limit 100000"
+ 
+ 
 $sReplaceFileName = "xIdReplace.ps1"
-
-
+$sReplaceFileName = "xRepActive.ps1"
 # for debug. display the reterive query
 #$showExcluded = $false
 $showQuery = $true
@@ -93,6 +83,11 @@ $AlphaBetLoop = $false
 ## $AlphaBetLoopWhere = " ' where name like ''{ABIndex}%'' '"
 # Codex
 $AlphaBetLoopWhere = ""; # ' and Jurisdiction_Code__c like ''{ABIndex}%'' '"
+
+
+$exportTreePath = 'revBilling' 
+[bool] $exportTree = $false
+
 
 ## ------------------------- End Input parameters -------------------------
 
@@ -169,6 +164,10 @@ $commandParm += " -exportTree $" + $exportTree + " "
 
 if ($whereOverride -gt "" ) {
   $commandParm += " -whereOverride $whereOverride "
+}
+
+if ($orderbyDefault -gt "" ) {
+  $commandParm += " -orderbyDefault $orderbyDefault "
 }
 
 $AlphaBetU = @()

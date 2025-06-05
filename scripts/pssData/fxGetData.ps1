@@ -20,7 +20,8 @@ Param(
     $excludeProcesssDirectory = "", 
     [AllowEmptyString()]
     $whereOverride = "",
-
+   [AllowEmptyString()]
+    $orderbyDefault = "order by id",
     [AllowEmptyString()]
     $whereOverrideAdd = $false,
     [AllowEmptyString()]
@@ -109,6 +110,7 @@ while ($cnter -lt 10) {
          
         if ( ($onlyProcessSObject -ne "" -and ! $onlyProcessSObject.contains($sObject)) -or 
            ($excludeProcessSObject -ne "" -and $excludeProcessSObject.contains($sObject)) -or
+            $sObjectHash[$x].PSobject.Properties.Name -notcontains 'ignore' -or
             $sObjectHash[$x].ignore -or 
             $sObjectHash[$x].ignoreGet  
     
@@ -134,7 +136,7 @@ while ($cnter -lt 10) {
 
             $orderBy = $sObjectHash[$x].orderBy
             if ($null -eq $orderBy) {
-                $orderBy = " order by External_id__c" 
+                $orderBy = " order by $orderbyDefault" 
             }
             ##$orderBy = ""
             $fields = Get-Content -path $wrk

@@ -39,18 +39,18 @@ $deploy = $true
  
 # after deploying, reterieve the objects and take a look 
 $reQuerytargetOrgOnDeploy = $true
+
+
 # process or not a specific file or sObjectcls
- 
 $onlyProcessFile = ""
 $onlyProcessSObject = ""
 $onlyProcessDirectory = "XRX4"
 
 ## Inputoutput subdir contain your deployment
-$csvOutOverride = 'XRX4' 
-$exportTreePath = 'revBilling' 
-[bool] $exportTree = $true
+$csvOutOverride = 'randomExamples' 
 
-$replace = $false 
+## processes replace files
+$replace = $false
 
 ### Exclude yourself or  endless loop
 $excludeProcessFile = "dataGetDeployX.ps1,dataGetDeploy.ps1," 
@@ -58,37 +58,26 @@ $excludeProcessFile += "asda.ps1"
 $excludeProcessSObject = ""
 $excludeProcesssDirectory = ""
 
-# for debug. display the reterive query
-
-$retrieveFieldOverride = "'id,unique_id__c'"
+ 
 $retrieveFieldOverride = "'id,name'"
 $retrieveFieldOverride = "'id,unique_id__c'"
 $retrieveFieldOverride = ""
+
 # $IDFieldForUpsert = "unique_id__c"
 $IDFieldForUpsert = "'id'"
 
 
+## allow you to override or set the order on data reterieve 
+$orderbyDefault = "order by external_id__c limit 100000"
 
+
+## text replace file to run
 $sReplaceFileName = "StateCountryReplace.ps1"
 #$sReplaceFileName = "StateReplace.ps1"
 $sReplaceFileName = "addressReplace.ps1"
 $sReplaceFileName = "xRepAccountReplace.ps1"
 $sReplaceFileName = "xRepTerms.ps1"
 
-
-
-#$rename = $false
- 
-$excludeProcessFile + "," + $sReplaceFileName
-if ($replace) {
-  
-  $excludeProcessFile + "," + $sReplaceFileName
-  $command = ".\scripts\pssData\sObjects\" + $onlyProcessDirectory + '\' + $sReplaceFileName
- 
-  $aReplace = @()
-  $aReplace += Invoke-Expression $command
- 
-}
 
 # for debug. display the reterive query
 #$showExcluded = $false
@@ -107,9 +96,24 @@ $AlphaBetLoop = $false
 # Codex
 $AlphaBetLoopWhere = ""; # ' and Jurisdiction_Code__c like ''{ABIndex}%'' '"
 
+$exportTreePath = 'revBilling' 
+[bool] $exportTree = $false
+
 ## ------------------------- End Input parameters -------------------------
 
 Invoke-Expression "Clear-Host"
+
+ 
+$excludeProcessFile + "," + $sReplaceFileName
+if ($replace) {
+  
+  $excludeProcessFile + "," + $sReplaceFileName
+  $command = ".\scripts\pssData\sObjects\" + $onlyProcessDirectory + '\' + $sReplaceFileName
+ 
+  $aReplace = @()
+  $aReplace += Invoke-Expression $command
+ 
+}
 
 ## Test Logins
 if ($retrieve) {
@@ -161,10 +165,17 @@ if ($IDFieldForUpsert -gt "" ) {
 if ($exportTreePath -gt "" ) {
   $commandParm += " -exportTreePath $exportTreePath "
 }
+if ($orderbyDefault -gt "" ) {
+  $commandParm += " -orderbyDefault $orderbyDefault "
+}
+
 
 $commandParm += " -showQuery $" + $showQuery + " "
 $commandParm += " -exportTree $" + $exportTree + " "
-
+if ($whereOverride -gt "" ) {
+  $commandParm += " -whereOverride $whereOverride "
+}
+ 
 $AlphaBetU = @()
 if ( !$AlphaBetLoop) {
   $AlphaBetU += "All"

@@ -1,43 +1,44 @@
-# SFDCPowerScripts-Code-Data-Sync
+# SFDC PowerScripts-Code-Data-Sync
 
 Scripting for deployment of code and sync of Data specifically CPQ objects
 Having worked on so many CPQ projects, this is a real timesaver and bug killer.
 
 **New Revcloud will be added and some migration scripts as well**
 
+#### I youare looking for a fancy GUI , etc this not for you.   There is a ramp up and knowing powershell or scripting is helpful. 
+
 ## These scripts are used to deploy packages between SFDC environments
 
 ### Production, Sandox, scratch etc.
 
-### CPQ Scripts build to move all CPQ Objects from one to another in minutes
+### CPQ Scripts build to move all CPQ Objects from one environment to another in minutes
+
+#### Not only CPQ, but any salesforce object can be replicated making easy to stand up test envionments and / or handle data corrections.
 
 ### Requires external ids on all objects and i have added some tips on how to set it up.
 
 ### once in place you can stand up test envionments quickly and deploy back to prod intelligently
 
-### scripts run standard sfdx data commands to get and upsert data
+### under the hood the scripts run standard sf data commands to get and upsert data.  this project just makes it more managable and the subdirectory allows the CPQ team to manage changes in standard sprints for CI/CD change control.
 
 ### scripts just make it easly repeatable
 
-Scripting sync weres by matching on external id fields setup on each SBQQ__xxx object.
-to start apply the external id manifests to you cpq objects (assuming you have none already),
-included is a auto number field that can be deployed to you master org to generaterate you ids
-that can then be used to populate your externalid fields.
-see attached.
+Scripting sync works by matching on external id fields setup on each SBQQ__xxx object (or any sfdc object).
+Included in this project are external id manifests for all CPQ objects that you can use to add external id to yourr cpq objects (assuming you have none already),
+included is a auto number field that can be deployed to you master org to generaterate the ids
+that can then be used to populate your externalid fields for syncing.
+see attached hack reeadme.
 
-Once the external id as established in you master, create an sandbox or scratch org
-in the dataGetDeploy.ps1 set you sfdc alias to the source and target environments
+Once the external id as established in your master, create a sandbox or scratch org.
+Using the dataGetDeploy.ps1 set you sfdc alias to the source and target environments
 $sourceOrgAlias = 'master'
 and
 $targetOrgAlias = 'jimtest26'    // your sandbox.
 then run the script dataGetDeploy.ps1
 
-more details:
-pssData directory contains the ps1 scripts for data sync
-
 ### pssData
 
-*where query data is retrieved *
+*where query data is placed upon reterival*
 
 * ## -data
 
@@ -49,17 +50,17 @@ pssData directory contains the ps1 scripts for data sync
 
   -sourceAlias
 
-  - sObject1.csv
+  - -sObject1.csv
     -sobject2.csv
-  - targetAliasthis g
+  - targetAlias
     -sObject1.csv
     -sobject2.csv
     ...
 * project / spring / other grouping
 
-  * a collectyion of data scripts
+  * a collection of data scripts
 
-## sObjects
+## sObjects - the actual scripts
 
 * -project-sprint
   -dataGetDeploy.ps1
@@ -70,72 +71,21 @@ pssData directory contains the ps1 scripts for data sync
 * -sObjectFile2.ps1
   -sObjectFile2.ps1
 
-### once in place you can stand up test envionments quickly and deploy back to prod intelligently
+### 
 
-### scripts run standard sfdx data commands to get and upsert data
-
-### scripts just make it easly repeatable
-
-** the dataGetDeploy.ps1 is run usiing the run scrit in vs code.  The script search its directory for the sObj files witch contain the actual SOQL. generally i copy a project directory into a new directory under the sobjects directory and add or remove objects as needed.
-** the dataGetDeploy.ps1 is run usiing the run scrit in vs code.  The script search its directory for the sObj files witch contain the actual SOQL. generally i copy a project directory into a new directory under the sobjects directory and add or remove objects as needed.
-Scripting sync weres by matching on external id fields setup on each SBQQ__xxx object.
-to start apply the external id manifests to you cpq objects (assuming you have none already),
-included is a auto number field that can be deployed to you master org to generaterate you ids
-that can then be used to populate your externalid fields.
-see attached.
-
-Once the external id as established in you master, create an sandbox or scratch org
-in the dataGetDeploy.ps1 set you sfdc alias to the source and target environments
-$sourceOrgAlias = 'master'
-and
-$targetOrgAlias = 'bvbtest26'    // your sandbox.
-then run the script dataGetDeploy.ps1
-
-more details:
-pssData directory contains the ps1 scripts for data sync
-
-### pssData
-
--data
-
--org
-
-### project-sprint
-
--sourceAlias
-
--sObject1.csv
--sobject2.csv
-...
--targetAlias
--sObject1.csv
--sobject2.csv
-...
-
-### sObjects
-
--project-sprint ()
--dataGetDeploy.ps1
-
--sourceOrgAlias(alias)
-
--targetOrgAlias(alias)
-
--sObjectFile1.ps1
-
--sObjectFile2.ps1
-
-
-**so for cpq you may be updating/creating a  price rule or summuray var in the current sprint so are marked as not ignored and can be pushed to prod or stage.
+** the dataGetDeploy.ps1 is run using the run run script in vs code.  The script searchs its directory for the sObj files which contain the actual SOQL. Generally i copy a project directory into a new directory under the sobjects directory and add or remove objects as needed.   This way the earlier sprint scripts availabe if needed
 
 ## example workflow - new spring project
 
-1. copy and paste the CPQConfig into a new directory under sObjects
+1. copy and paste the CPQConfig io earlier nto a new directory under sObjects.
+
+   1. this includes the dataGetDeploy as well as sObjScripts
 2. in the dataGetDeploy you will find the source and target alias that you set to the needed values
 3. the reterive and deploy are as you expect.
 
-   1. test your reterives as needed then turn on deeploy when ready.
-4. ```
+   test your reterive as needed then turn on deeploy when ready.
+4. note: the same $svar is set mutilple times in the script.  the last one wins
+5. ```
    $sourceOrgAlias = 'dev' 
    $sourceOrgAlias = 'sfcpqdev' 
 
@@ -161,11 +111,13 @@ pssData directory contains the ps1 scripts for data sync
    #        if retrieve and deploy are false then nothing is going to happen  
    $deploy = $true
    ```
-5. the script scans the sobject files and where the ignore is false it adds for processing
-6. the import order determines the order the SOQL is processed and is important when there aree related dependencies ie SBQQ__summary__c needs to be inserted before the the price rule that usses it.
-7. the where clause helps filtere those records for the current sprint
-8. which brings us back to the external ids.  after the inital loading of external ids where test and production are in sync and you add fields, make the date part of the external id for new records that are being addeed. this makes them easy to ideentify for migraton to prod
-9. ****where external_id__c = 'EX-20260415.01"
+6. the script scans the sobject files and where the ignore is false it adds for processing
+7. the import order determines the order the SOQL is processed
+
+   1. This is important when upserting new records with related dependencies ie SBQQ__summary__c needs to be inserted before the the price rule that uses it.
+8. the where clause helps filter those records for the current sprint
+9. which brings us back to the external ids.  after the inital loading of external ids where test and production are in sync and you add new records  make the date part of the external id for new records that are being addeed. this makes them easy to ideentify for migraton to prod. and provides a history of when the record was created  and deploydto production
+10. ****where external_id__c >= 'EX-20260415.01"
 
 ```
 $packageHash = @{}
@@ -192,4 +144,25 @@ $packageHash.add("SBQQ__ProductFeature__c",
         ignore      = $true
     } )  
 ```
-$onlyProcessDirectory = "CPQConfig"  indicates the subdirectiry that contains the SOQL result files.
+
+****The file, sobject and directory allow you to specify specific objects and psfiles to processes
+always set the onlyProcessDirectory to the currect sprint /sobject directory. or it will scan everythingin the sObjects subdirectory.
+
+```
+
+
+$onlyProcessFile = ""
+$onlyProcessSObject = ""
+$onlyProcessDirectory = "CPQConfig"
+
+## Inputoutput subdir contain your deployment
+$csvOutOverride = 'CPQConfig' 
+
+### Exclude yourself or  endless loop
+$excludeProcessFile = "dataGetDeployX.ps1,dataGetDeploy.ps1," 
+$excludeProcessFile += "asda.ps1"  
+$excludeProcessSObject = ""
+$excludeProcesssDirectory = ""
+
+
+```

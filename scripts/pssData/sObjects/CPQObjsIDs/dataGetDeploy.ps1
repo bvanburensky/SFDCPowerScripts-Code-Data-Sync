@@ -10,8 +10,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 # retieve to pull from sandbox and deploy to your or another sandbox or production
 # source connection 
 # NOTE: This alias is also used as the directory for data retrieve and deploy 
-  
-
+ 
 $sourceOrgAlias = 'XRXFull' 
 $sourceOrgAlias = 'XRXFullIn' 
 $sourceOrgAlias = 'XRXProdBk'   
@@ -19,69 +18,66 @@ $sourceOrgAlias = 'master'
 #$sourceOrgAlias = 'bvbtest26In'   
 #$sourceOrgAlias = 'Sunsetnessdevnew' 
 # target connection to your dev or prodction 
- 
+  
  
 $targetOrgAlias = 'XRXProd' 
 $targetOrgAlias = 'bvbtest26'   
  
+ 
 #######  true|False  # perform the retrieve from the source org or use the artifacts that exist   
 
-$retrieve = $true
+$retrieve = $false 
 #######  true|False deploy or verify the artifacts to the target org.  
 #        if retrieve and deploy are false then nothing is going to happen  
-$deploy = $true      
+$deploy = $true 
 # to delete records spcified in a csvfile
  
 # after deploying, reterieve the objects and take a look 
 $reQuerytargetOrgOnDeploy = $true
 # process or not a specific file or sObjectcls
  
-$onlyProcessFile = ""
-$onlyProcessSObject = ""
-$onlyProcessDirectory = "CPQConfig"
+$onlyProcessFile = "sObjs1Config.ps1"
+$onlyProcessSObject = "SBQQ__SummaryVariable__c"
+$onlyProcessDirectory = "CPQObjsIDs"
 
 ## Inputoutput subdir contain your deployment
-$csvOutOverride = 'CPQConfig' 
+$csvOutOverride = 'CPQObjsIDs' 
 
-$exportTreePath = 'revBilling' 
-[bool] $exportTree = $false
-
-$replace = $false
 
 ### Exclude yourself or  endless loop
 $excludeProcessFile = "dataGetDeployX.ps1,dataGetDeploy.ps1," 
-$excludeProcessFile += "asda.ps1"  
+$excludeProcessFile += "asda.ps1" 
 $excludeProcessSObject = ""
 $excludeProcesssDirectory = ""
 
-# for debug. display the query
+# for debug. display the reterive query
 
-$retrieveFieldOverride = "'id,external_id__c'"
+$retrieveFieldOverride = "'id,External_id__c'"
 $retrieveFieldOverride = "'id,name'"
-$retrieveFieldOverride = "'id,external_id__c'"
-$retrieveFieldOverride = "'id,external_id__c'"
 $retrieveFieldOverride = "'id,external_id_auto__c'"
-$retrieveFieldOverride = ""
-# $IDFieldForUpsert = "external_id__c"
-$IDFieldForUpsert = "'external_id__c'"
-#$IDFieldForUpsert = "'id'"
+#$retrieveFieldOverride = ""
+$IDFieldForUpsert = "External_id__c"
+$IDFieldForUpsert = "'id'"
+# $IsUpdate
+# for debug. display the reterive query
+
+## allow you to override or set the order on data reterieve 
+$orderbyDefault = "order by external_id__c limit 100000"
 
 
+## text replace file to run
 $sReplaceFileName = "StateCountryReplace.ps1"
 #$sReplaceFileName = "StateReplace.ps1"
 $sReplaceFileName = "addressReplace.ps1"
 $sReplaceFileName = "xRepAccountReplace.ps1"
-$sReplaceFileName = "xRepTerms.ps1"
-$sReplaceFileName = "xIdReplace.ps1"
+$sReplaceFileName = "xrIdReplace.ps1"
 
 
 # for debug. display the reterive query
 #$showExcluded = $false
 $showQuery = $true
 #This only applies to reterive 
-## " 'where external_id__c in (''EX-020120033'')' "
-## be sure to add the WHERE
-$whereOverride = "" ###   "'where external_id__c='''' '"
+$whereOverride = "" ##'where Unique_ID__c in (''EX-020120033'')' "
 
 #Add to the existing Query 'and field = ''asd '' ' if false then replaces any Where clause
 $whereOverrideAdd = $true
@@ -94,10 +90,13 @@ $AlphaBetLoop = $false
 # Codex
 $AlphaBetLoopWhere = ""; # ' and Jurisdiction_Code__c like ''{ABIndex}%'' '"
 
+$exportTreePath = 'revBilling' 
+[bool] $exportTree = $false
+
 ## ------------------------- End Input parameters -------------------------
 
+Invoke-Expression "Clear-Host"
 
-#$rename = $false
  
 $excludeProcessFile + "," + $sReplaceFileName
 if ($replace) {
@@ -109,9 +108,6 @@ if ($replace) {
   $aReplace += Invoke-Expression $command
  
 }
-
-
-Invoke-Expression "Clear-Host"
 
 ## Test Logins
 if ($retrieve) {
@@ -163,17 +159,23 @@ if ($IDFieldForUpsert -gt "" ) {
 if ($exportTreePath -gt "" ) {
   $commandParm += " -exportTreePath $exportTreePath "
 }
+if ($orderbyDefault -gt "" ) {
+  $commandParm += " -orderbyDefault $orderbyDefault "
+}
+
 
 $commandParm += " -showQuery $" + $showQuery + " "
 $commandParm += " -exportTree $" + $exportTree + " "
-
 if ($whereOverride -gt "" ) {
   $commandParm += " -whereOverride $whereOverride "
 }
-
+ 
 $AlphaBetU = @()
 if ( !$AlphaBetLoop) {
   $AlphaBetU += "All"
+  if ($whereOverride -gt "" ) {
+    $commandParm += " -whereOverride $whereOverride "
+  }
 }
 
 if ($AlphaBetLoop) {
@@ -202,10 +204,10 @@ foreach ($letter in $AlphaBetU) {
 
   } 
   if ($retrieve) {
-    write-host Data Retrieve Starting -ForegroundColor green
+    write-host Data Retrieve Starting  -ForegroundColor green
     $command = $scriptPath + "fxGetData.ps1 -sourceOrgAlias $sourceOrgAlias -csvOutputPath $csvOutputPath " +
     " $commandParm $cmdAlpha {-showQuery:$showQuery} " 
-    write-host running $command -ForegroundColor yellow
+    write-host running $command  -ForegroundColor yellow
     Invoke-Expression $command
     write-host Retrieve Complete -ForegroundColor green
   }
@@ -217,19 +219,19 @@ foreach ($letter in $AlphaBetU) {
       $rcmd += " -ReplaceTextTo " + $repls.to
       $command = $scriptPath + "fxReplaceData.ps1 -sourceOrgAlias $sourceOrgAlias -csvOutputPath $csvOutputPath $commandParm   " 
       $command += $rcmd
-      write-host running $command -ForegroundColor yellow
+      write-host running $command  -ForegroundColor yellow
       Invoke-Expression $command
     }
 
   }
    
   if ($deploy) {
-    write-host Data Deploy Starting -ForegroundColor green 
+    write-host Data Deploy Starting  -ForegroundColor green 
     $command = ($scriptPath) + "fxDeployData.ps1 -sourceOrgAlias $sourceOrgAlias -targetOrgAlias $targetOrgAlias " +
     " -csvOutputPath $csvOutputPath  $commandParm "
-    write-host running $command -ForegroundColor yellow
+    write-host running $command  -ForegroundColor yellow
     Invoke-Expression $command
-    write-host Deploy Complete $sObj -ForegroundColor green
+    write-host Deploy Complete  $sObj -ForegroundColor green
   }
   break
 }
@@ -240,9 +242,9 @@ if ($csvOutOverride -gt "") {
   $csvOutputPath = "scripts/pssData/data/org/" + $csvOutOverride + "/" + $targetOrgAlias + "/"
 }
 if ($deploy -and $reQuerytargetOrgOnDeploy) {
-  write-host Data Retrieve Starting -ForegroundColor green
+  write-host Data Retrieve Starting  -ForegroundColor green
   $command = $scriptPath + "fxGetData.ps1 -sourceOrgAlias $targetOrgAlias -csvOutputPath $csvOutputPath  $commandParm "
-  write-host running $command -ForegroundColor yellow
+  write-host running $command  -ForegroundColor yellow
   Invoke-Expression $command
   write-host Retrieve Complete -ForegroundColor green
 }

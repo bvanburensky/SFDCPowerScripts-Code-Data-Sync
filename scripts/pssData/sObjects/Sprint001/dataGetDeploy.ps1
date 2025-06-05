@@ -21,6 +21,7 @@ $sourceOrgAlias = 'master'
 # target connection to your dev or prodction 
  
  
+ 
 $targetOrgAlias = 'XRXProd' 
 $targetOrgAlias = 'bvbtest26'   
  
@@ -35,7 +36,9 @@ $deploy = $true
 # after deploying, reterieve the objects and take a look 
 $reQuerytargetOrgOnDeploy = $true
 # process or not a specific file or sObjectcls
- 
+
+
+
 $onlyProcessFile = ""
 $onlyProcessSObject = ""
 $onlyProcessDirectory = "CPQConfig"
@@ -43,22 +46,18 @@ $onlyProcessDirectory = "CPQConfig"
 ## Inputoutput subdir contain your deployment
 $csvOutOverride = 'CPQConfig' 
 
-$exportTreePath = 'revBilling' 
-[bool] $exportTree = $false
-
-$replace = $false
-
 ### Exclude yourself or  endless loop
 $excludeProcessFile = "dataGetDeployX.ps1,dataGetDeploy.ps1," 
 $excludeProcessFile += "asda.ps1"  
 $excludeProcessSObject = ""
 $excludeProcesssDirectory = ""
 
-# for debug. display the query
 
-$retrieveFieldOverride = "'id,external_id__c'"
+
+$replace = $false
+
+ 
 $retrieveFieldOverride = "'id,name'"
-$retrieveFieldOverride = "'id,external_id__c'"
 $retrieveFieldOverride = "'id,external_id__c'"
 $retrieveFieldOverride = "'id,external_id_auto__c'"
 $retrieveFieldOverride = ""
@@ -66,6 +65,7 @@ $retrieveFieldOverride = ""
 $IDFieldForUpsert = "'external_id__c'"
 #$IDFieldForUpsert = "'id'"
 
+$orderbyDefault = "order by external_id__c limit 100000"
 
 $sReplaceFileName = "StateCountryReplace.ps1"
 #$sReplaceFileName = "StateReplace.ps1"
@@ -73,6 +73,8 @@ $sReplaceFileName = "addressReplace.ps1"
 $sReplaceFileName = "xRepAccountReplace.ps1"
 $sReplaceFileName = "xRepTerms.ps1"
 $sReplaceFileName = "xIdReplace.ps1"
+
+
 
 
 # for debug. display the reterive query
@@ -94,10 +96,15 @@ $AlphaBetLoop = $false
 # Codex
 $AlphaBetLoopWhere = ""; # ' and Jurisdiction_Code__c like ''{ABIndex}%'' '"
 
+
+$exportTreePath = 'revBilling' 
+[bool] $exportTree = $false
+
+
 ## ------------------------- End Input parameters -------------------------
+Invoke-Expression "Clear-Host"
 
-
-#$rename = $false
+ 
  
 $excludeProcessFile + "," + $sReplaceFileName
 if ($replace) {
@@ -111,7 +118,7 @@ if ($replace) {
 }
 
 
-Invoke-Expression "Clear-Host"
+
 
 ## Test Logins
 if ($retrieve) {
@@ -163,6 +170,10 @@ if ($IDFieldForUpsert -gt "" ) {
 if ($exportTreePath -gt "" ) {
   $commandParm += " -exportTreePath $exportTreePath "
 }
+if ($orderbyDefault -gt "" ) {
+  $commandParm += " -orderbyDefault $orderbyDefault "
+}
+
 
 $commandParm += " -showQuery $" + $showQuery + " "
 $commandParm += " -exportTree $" + $exportTree + " "
@@ -170,7 +181,7 @@ $commandParm += " -exportTree $" + $exportTree + " "
 if ($whereOverride -gt "" ) {
   $commandParm += " -whereOverride $whereOverride "
 }
-
+ 
 $AlphaBetU = @()
 if ( !$AlphaBetLoop) {
   $AlphaBetU += "All"

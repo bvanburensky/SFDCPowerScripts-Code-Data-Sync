@@ -35,7 +35,12 @@ $packageHash.add("SBQQ__ProductOption__c",
         SBQQ__DiscountSchedule__r.external_id__c,     
         SBQQ__OptionalSKU__r.external_id__c,    
         SBQQ__Feature__r.external_id__c,               
-      
+        Connection_Notes__c,
+        COVID_19_Rapid_Response_Platform_Tier_1__c,
+        COVID_19_Rapid_Response_Platform_Tier_2__c,
+        COVID_19_Rapid_Response_Platform_Tier_3__c,
+        Expiration_Date__c,
+        Expiring__c,
           
         SBQQ__AppliedImmediately__c,
         SBQQ__AppliedImmediatelyContext__c,
@@ -66,7 +71,10 @@ $packageHash.add("SBQQ__ProductOption__c",
         SBQQ__Type__c,
         SBQQ__UnitPrice__c,
         SBQQ__UpliftedByPackage__c,
-     ";
+        Subscription_Term_for_Bundle__c,
+        Time_Zone_Awareness__c,
+        Total_3rd_Party_Connections__c,
+        Total_Non_3rd_Party_Connections__c  ";
         #where       = " where (Codex__c = '' and SBQQ__OptionalSKU__r.is_AV2__c = true and SBQQ__OptionalSKU__r.isactive = true)  " ;
         importOrder = "3"
         ignore      = $true

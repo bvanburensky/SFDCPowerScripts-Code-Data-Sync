@@ -7,11 +7,11 @@ $packageHash.add("SBQQ__ProductFeature__c",
     @{fields        = 
         "  
         Name,
-        external_id__c,
+        External_id__c,
         SBQQ__Category__c,
         SBQQ__ConfigurationFieldSet__c,
-        SBQQ__ConfiguredSKU__r.external_id__c,
-        SBQQ__DiscountSchedule__r.external_id__c,
+        SBQQ__ConfiguredSKU__r.External_id__c,
+        SBQQ__DiscountSchedule__r.External_id__c,
         SBQQ__DynamicProductFilterFieldSet__c,
         SBQQ__DynamicProductLookupFieldSet__c,
         SBQQ__MaxOptionCount__c,
@@ -30,12 +30,12 @@ $packageHash.add("SBQQ__ProductOption__c",
     @{fields        = 
         "  
       
-        external_id__c,
-        SBQQ__ConfiguredSKU__r.external_id__c, 
-        SBQQ__DiscountSchedule__r.external_id__c,     
-        SBQQ__OptionalSKU__r.external_id__c,    
-        SBQQ__Feature__r.external_id__c,               
-      
+        External_id__c,
+        SBQQ__ConfiguredSKU__r.External_id__c, 
+        SBQQ__DiscountSchedule__r.External_id__c,     
+        SBQQ__OptionalSKU__r.External_id__c,    
+        SBQQ__Feature__r.External_id__c,               
+   
           
         SBQQ__AppliedImmediately__c,
         SBQQ__AppliedImmediatelyContext__c,
@@ -66,8 +66,8 @@ $packageHash.add("SBQQ__ProductOption__c",
         SBQQ__Type__c,
         SBQQ__UnitPrice__c,
         SBQQ__UpliftedByPackage__c,
-     ";
-        #where       = " where (Codex__c = '' and SBQQ__OptionalSKU__r.is_AV2__c = true and SBQQ__OptionalSKU__r.isactive = true)  " ;
+ ; "
+
         importOrder = "3"
         ignore      = $true
     } )  
@@ -76,15 +76,15 @@ $packageHash.add("SBQQ__ProductOption__c",
  
  
 
-$packageHash.add("SBQQ__OptionConstraint__c",
+    $packageHash.add("SBQQ__OptionConstraint__c",
     @{fields        = 
-        " external_id__c,
+        " External_id__c,
         Name,
         SBQQ__Active__c,
         SBQQ__CheckPriorPurchases__c,
-        SBQQ__ConfiguredSKU__r.external_id__c ,
-        SBQQ__ConstrainedOption__r.external_id__c ,
-        SBQQ__ConstrainingOption__r.external_id__c ,
+        SBQQ__ConfiguredSKU__r.External_id__c ,
+        SBQQ__ConstrainedOption__r.External_id__c ,
+        SBQQ__ConstrainingOption__r.External_id__c ,
         SBQQ__OptionConstraintGroup__c,
         SBQQ__Type__c ";
         importOrder = "4" ;
@@ -94,9 +94,9 @@ $packageHash.add("SBQQ__OptionConstraint__c",
 
 $packageHash.add("SBQQ__ConfigurationAttribute__c",
     @{fields        = " 
-        external_id__c,
-        SBQQ__Feature__r.external_id__c,
-        SBQQ__Product__r.external_id__c ,       
+        External_id__c,
+        SBQQ__Feature__r.External_id__c,
+        SBQQ__Product__r.External_id__c ,       
         Name,
         RecordTypeId,
        SBQQ__AppliedImmediately__c,
